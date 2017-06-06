@@ -15,6 +15,9 @@ def shared_pods
   pod 'Crashlytics'
   # Logging library
   pod 'SwiftyBeaver’
+  # Dependency Injection container
+  pod 'Swinject', '~> 2.0.0'
+
 end
 
 target 'Learnwise' do
