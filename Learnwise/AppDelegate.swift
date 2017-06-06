@@ -9,8 +9,7 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, LoggerProtocol {
-    var log: Logger?
+class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var dependencyContainer: DependencyContainer!
 
@@ -18,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, LoggerProtocol {
         // configure dependency Injection
         configureDependencyInjection()
         // configure logger
-        log?.configureLogger()
+        container?.resolve(Logger.self)?.configureLogger()
         return true
     }
 
