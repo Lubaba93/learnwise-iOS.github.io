@@ -8,6 +8,5 @@
 
 import UIKit
 
-
 // DI container
-let container = (UIApplication.shared.delegate as? AppDelegate)?.dependencyInjectionManager.container
+let container = (UIApplication.shared.delegate as? AppDelegate)?.dependencyContainer.container
