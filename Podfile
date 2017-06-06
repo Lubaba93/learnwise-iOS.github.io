@@ -17,6 +17,9 @@ def shared_pods
   pod 'SwiftyBeaver’
   # Dependency Injection container
   pod 'Swinject', '~> 2.0.0'
+  # Reporting crash
+  pod 'Fabric'
+  pod 'Crashlytics'
 
 end
 

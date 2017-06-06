@@ -19,6 +19,11 @@
 		C24B0197F23BFBFA62C35F02 /* Pods_LearnwiseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3B87881B88C2393460FF81 /* Pods_LearnwiseTests.framework */; };
 		E82110BA1EE6C2DF00ACBE04 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110B91EE6C2DF00ACBE04 /* DependencyContainer.swift */; };
 		E82110BD1EE6C55400ACBE04 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110BC1EE6C55400ACBE04 /* Constants.swift */; };
+		E82110C21EE6E0A800ACBE04 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110C11EE6E0A800ACBE04 /* AnalyticsManager.swift */; };
+
+		FDBA933D1EE6CA0200CCEB26 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */; };
+		FDF6589E1EE6D711008BA6B8 /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF6589D1EE6D711008BA6B8 /* NetworkManagerProtocol.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,13 +50,17 @@
 		3B1025BE1EE6800300E6E82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BEBD9901EE6BE83000D4AAF /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		3BEBD9921EE6D2B6000D4AAF /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+
 		40011D8ADF70E877CEA97AA8 /* Pods-LearnwiseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnwiseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnwiseTests/Pods-LearnwiseTests.release.xcconfig"; sourceTree = "<group>"; };
 		CA271EB702C1643320F821C0 /* Pods-LearnwiseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnwiseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnwiseTests/Pods-LearnwiseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DCAA6EFDAD037DEA7A0BE14E /* Pods-Learnwise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learnwise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Learnwise/Pods-Learnwise.debug.xcconfig"; sourceTree = "<group>"; };
 		E514738B9D366B5CB843659B /* Pods-Learnwise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learnwise.release.xcconfig"; path = "Pods/Target Support Files/Pods-Learnwise/Pods-Learnwise.release.xcconfig"; sourceTree = "<group>"; };
 		E82110B91EE6C2DF00ACBE04 /* DependencyContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
 		E82110BC1EE6C55400ACBE04 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E82110C11EE6E0A800ACBE04 /* AnalyticsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
 		FB3B87881B88C2393460FF81 /* Pods_LearnwiseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnwiseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FDF6589D1EE6D711008BA6B8 /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,10 +138,13 @@
 		E82110BB1EE6C53900ACBE04 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				FDF6589F1EE6EA40008BA6B8 /* Protocols */,
+				FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */,
 				E82110BC1EE6C55400ACBE04 /* Constants.swift */,
 				E82110B91EE6C2DF00ACBE04 /* DependencyContainer.swift */,
 				3BEBD9921EE6D2B6000D4AAF /* ImageDownloader.swift */,
 				3BEBD9901EE6BE83000D4AAF /* Logger.swift */,
+				E82110C11EE6E0A800ACBE04 /* AnalyticsManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -146,6 +158,14 @@
 				40011D8ADF70E877CEA97AA8 /* Pods-LearnwiseTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDF6589F1EE6EA40008BA6B8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FDF6589D1EE6D711008BA6B8 /* NetworkManagerProtocol.swift */,
+			);
+			name = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +182,7 @@
 				3B1025C71EE68F3200E6E82E /* ShellScript */,
 				285CAD5D102F6374E12F8CD4 /* [CP] Embed Pods Frameworks */,
 				321F1845BCE10F0705E18472 /* [CP] Copy Pods Resources */,
+				E82110BE1EE6D90900ACBE04 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -311,7 +332,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		BE0893A4CB75901CD7071B3A /* [CP] Copy Pods Resources */ = {
@@ -344,6 +365,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnwiseTests/Pods-LearnwiseTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E82110BE1EE6D90900ACBE04 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" f261894556e94abd03eb8eb12866a86cd23f3224 30b209903c3e625f041e73d25bec1c688b993b46064b9759e5f5695f83445b36";
+		};
 		F218C1198AE97978146017D2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,7 +390,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -366,8 +400,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
+				E82110C21EE6E0A800ACBE04 /* AnalyticsManager.swift in Sources */,
 				E82110BA1EE6C2DF00ACBE04 /* DependencyContainer.swift in Sources */,
+
 				3B1025AA1EE6800300E6E82E /* ViewController.swift in Sources */,
+				FDF6589E1EE6D711008BA6B8 /* NetworkManagerProtocol.swift in Sources */,
+				FDBA933D1EE6CA0200CCEB26 /* NetworkManager.swift in Sources */,
 				3BEBD9931EE6D2B6000D4AAF /* ImageDownloader.swift in Sources */,
 				3B1025A81EE6800300E6E82E /* AppDelegate.swift in Sources */,
 				3BEBD9911EE6BE83000D4AAF /* Logger.swift in Sources */,
