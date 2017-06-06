@@ -8,29 +8,24 @@
 
 import Alamofire
 
-// Enum to manage the success and failure cases during network integration
-enum Result<U, T> {
-    case Success(U)
-    case Failure(T)
-}
-
-// Enum to manage error encountered during network integration
-enum NetworkError: Error {
-    case error(String?)
-}
-
-protocol NetworkManagerProtocol {
-    func get(endPoint: String, completion: @escaping (Result<[String: Any], Error>) -> ())
-}
-
 class NetworkManager: NetworkManagerProtocol {
     
-    /**
-     Calls Alalmofire to fetch auto suggestion results for a given url.
-     Manages success and failure cases
-     */
-    func get(endPoint: String, completion: @escaping (Result<[String: Any], Error>) -> ()) {
-        
+    /// Network call to fetch results for a given url. Manages success and failure cases
+    ///
+    /// - Parameters:
+    ///   - url: url
+    ///   - completion: Closure which either returns success or failure cases.
+    func get(url: String, completion: @escaping (Result<[String: Any], Error>) -> ()) {
+        completion(Result.Success([:]))
+    }
+    
+    /// Network call to send data to a given url.
+    ///
+    /// - Parameters:
+    ///   - url: url
+    ///   - completion: Closure which either returns success or failure casaes.
+    func post(url: String, parameters: [String: Any], completion: @escaping (Result<[String: Any], Error>) ->()) {
+        completion(Result.Success([:]))
     }
 }
 

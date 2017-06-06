@@ -12,17 +12,20 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var dependencyInjectionManager: DependencyInjectionManager!
-
-
+    var dependencyContainer: DependencyContainer!
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        initializeDependencyInjectionManager()
+        // configure dependency Injection
+        configureDependencyInjection()
+        // configure logger
+        container?.resolve(Logger.self)?.configureLogger()
         return true
     }
 
-    func  initializeDependencyInjectionManager() {
-        dependencyInjectionManager = DependencyInjectionManager()
+    func configureDependencyInjection() {
+        dependencyContainer = DependencyContainer()
     }
-
+    
+    
 
 }

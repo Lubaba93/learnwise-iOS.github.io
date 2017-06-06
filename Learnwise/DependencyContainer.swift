@@ -8,16 +8,23 @@
 
 import Swinject
 
-class DependencyInjectionManager {
+class DependencyContainer {
     let container = Container()
-    
-    // designated initialiser
+
+    /// designated initialiser
     init() {
         injectDependencies()
     }
-    
-    // Inject Dependencies
+
+    /// Inject Dependencies
     func injectDependencies() {
-        
+        registerLogger()
+    }
+
+    /// Register Logger class
+    func registerLogger() {
+        container.register(Logger.self) { _ in
+            Logger()
+        }.inObjectScope(.container)
     }
 }

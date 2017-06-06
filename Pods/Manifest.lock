@@ -5,6 +5,7 @@ PODS:
   - Fabric (1.6.11)
   - Kingfisher (3.8.0)
   - ObjectMapper (2.2.6)
+  - SwiftyBeaver (1.2.2)
   - Swinject (2.0.0)
 
 DEPENDENCIES:
@@ -13,6 +14,7 @@ DEPENDENCIES:
   - Fabric
   - Kingfisher (~> 3.0)
   - ObjectMapper (~> 2.2)
+  - SwiftyBeaver
   - Swinject (~> 2.0.0)
 
 SPEC CHECKSUMS:
@@ -20,9 +22,10 @@ SPEC CHECKSUMS:
   Crashlytics: 79e236942ca1e7fc641df1feb9a275360a78ab6a
   Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
   Kingfisher: 7b8a055fc5c2afc61407d1a499e4e0981b1a6ac4
-  ObjectMapper: 042708195cc46c20871cbcbec0453826398273fd
+  ObjectMapper: '042708195cc46c20871cbcbec0453826398273fd'
+  SwiftyBeaver: 90a39e3dc5136b7285f2e4c870b107e3933b8b84
   Swinject: 2e964a80d70ab09b3949c99032711f89147bfd60
 
-PODFILE CHECKSUM: 73cc3afd712d5710b04633c2cd0cdc67e75d06be
+PODFILE CHECKSUM: e52dfd8e79fba0934b066aae5aae40f18188afee
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.2.0.beta.1
