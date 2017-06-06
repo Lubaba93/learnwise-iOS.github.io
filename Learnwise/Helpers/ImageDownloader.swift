@@ -22,10 +22,10 @@ extension ImageDownloader {
                               placeholder: nil,
                               options: [.transition(ImageTransition.fade(1))],
                               progressBlock: { receivedSize, totalSize in
-//                                self.log?.info(message: "\(receivedSize)/\(totalSize)")
+//                                log?.info(message: "\(receivedSize)/\(totalSize)")
         },
                               completionHandler: { image, error, cacheType, imageURL in
-//                                self.log?.info(message:"Finished")
+//                                log?.info(message:"Finished")
         })
     }
 }
