@@ -10,8 +10,9 @@ import Crashlytics
 import Fabric
 
 class AnalyticsManager {
-       static let analyticsInstance = AnalyticsManager()
+      
     
+    /// configure Crashlytics
     func configureAnalytics() {
         Fabric.with([Crashlytics.self])
         

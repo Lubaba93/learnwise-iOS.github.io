@@ -14,9 +14,10 @@
 		3B1025B21EE6800300E6E82E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1025B01EE6800300E6E82E /* LaunchScreen.storyboard */; };
 		3B1025BD1EE6800300E6E82E /* LearnwiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1025BC1EE6800300E6E82E /* LearnwiseTests.swift */; };
 		3BEBD9911EE6BE83000D4AAF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBD9901EE6BE83000D4AAF /* Logger.swift */; };
+		3BEBD9931EE6D2B6000D4AAF /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBD9921EE6D2B6000D4AAF /* ImageDownloader.swift */; };
 		5BBD047625B934AAFFB70766 /* Pods_Learnwise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F60D5B869D9A022F3C3C1C9 /* Pods_Learnwise.framework */; };
 		C24B0197F23BFBFA62C35F02 /* Pods_LearnwiseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3B87881B88C2393460FF81 /* Pods_LearnwiseTests.framework */; };
-		E82110BA1EE6C2DF00ACBE04 /* DependencyInjectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110B91EE6C2DF00ACBE04 /* DependencyInjectionManager.swift */; };
+		E82110BA1EE6C2DF00ACBE04 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110B91EE6C2DF00ACBE04 /* DependencyContainer.swift */; };
 		E82110BD1EE6C55400ACBE04 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110BC1EE6C55400ACBE04 /* Constants.swift */; };
 		E82110C21EE6E0A800ACBE04 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110C11EE6E0A800ACBE04 /* AnalyticsManager.swift */; };
 /* End PBXBuildFile section */
@@ -44,11 +45,13 @@
 		3B1025BC1EE6800300E6E82E /* LearnwiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnwiseTests.swift; sourceTree = "<group>"; };
 		3B1025BE1EE6800300E6E82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BEBD9901EE6BE83000D4AAF /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		3BEBD9921EE6D2B6000D4AAF /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+
 		40011D8ADF70E877CEA97AA8 /* Pods-LearnwiseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnwiseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnwiseTests/Pods-LearnwiseTests.release.xcconfig"; sourceTree = "<group>"; };
 		CA271EB702C1643320F821C0 /* Pods-LearnwiseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnwiseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnwiseTests/Pods-LearnwiseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DCAA6EFDAD037DEA7A0BE14E /* Pods-Learnwise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learnwise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Learnwise/Pods-Learnwise.debug.xcconfig"; sourceTree = "<group>"; };
 		E514738B9D366B5CB843659B /* Pods-Learnwise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learnwise.release.xcconfig"; path = "Pods/Target Support Files/Pods-Learnwise/Pods-Learnwise.release.xcconfig"; sourceTree = "<group>"; };
-		E82110B91EE6C2DF00ACBE04 /* DependencyInjectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyInjectionManager.swift; sourceTree = "<group>"; };
+		E82110B91EE6C2DF00ACBE04 /* DependencyContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
 		E82110BC1EE6C55400ACBE04 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E82110C11EE6E0A800ACBE04 /* AnalyticsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
 		FB3B87881B88C2393460FF81 /* Pods_LearnwiseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnwiseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,12 +111,11 @@
 			children = (
 				E82110BB1EE6C53900ACBE04 /* Helpers */,
 				3B1025A71EE6800300E6E82E /* AppDelegate.swift */,
+				3B1025A91EE6800300E6E82E /* ViewController.swift */,
 				3B1025AE1EE6800300E6E82E /* Assets.xcassets */,
-				E82110B91EE6C2DF00ACBE04 /* DependencyInjectionManager.swift */,
 				3B1025B31EE6800300E6E82E /* Info.plist */,
 				3B1025B01EE6800300E6E82E /* LaunchScreen.storyboard */,
 				3B1025AB1EE6800300E6E82E /* Main.storyboard */,
-				3B1025A91EE6800300E6E82E /* ViewController.swift */,
 			);
 			path = Learnwise;
 			sourceTree = "<group>";
@@ -131,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				E82110BC1EE6C55400ACBE04 /* Constants.swift */,
+				E82110B91EE6C2DF00ACBE04 /* DependencyContainer.swift */,
+				3BEBD9921EE6D2B6000D4AAF /* ImageDownloader.swift */,
 				3BEBD9901EE6BE83000D4AAF /* Logger.swift */,
 				E82110C11EE6E0A800ACBE04 /* AnalyticsManager.swift */,
 			);
@@ -380,9 +384,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
 				E82110C21EE6E0A800ACBE04 /* AnalyticsManager.swift in Sources */,
-				E82110BA1EE6C2DF00ACBE04 /* DependencyInjectionManager.swift in Sources */,
+				E82110BA1EE6C2DF00ACBE04 /* DependencyContainer.swift in Sources */,
+
 				3B1025AA1EE6800300E6E82E /* ViewController.swift in Sources */,
+				3BEBD9931EE6D2B6000D4AAF /* ImageDownloader.swift in Sources */,
 				3B1025A81EE6800300E6E82E /* AppDelegate.swift in Sources */,
 				3BEBD9911EE6BE83000D4AAF /* Logger.swift in Sources */,
 				E82110BD1EE6C55400ACBE04 /* Constants.swift in Sources */,

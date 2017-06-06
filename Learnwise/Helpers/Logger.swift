@@ -9,10 +9,8 @@
 import SwiftyBeaver
 
 class Logger {
-    static let sharedInstance = Logger()
     var log: SwiftyBeaver.Type? = nil
-    
-    
+
     /// Configure the logger with default properties
     func configureLogger() {
         log = SwiftyBeaver.self
@@ -29,7 +27,6 @@ class Logger {
         log?.addDestination(file)
     }
 
-    
     /// Log in verbose mode
     ///
     /// - Parameter message: message to be logged to console
@@ -37,7 +34,6 @@ class Logger {
         log?.verbose(message)
     }
 
-    
     /// Log in debug mode
     ///
     /// - Parameter message: message to be logged to console
@@ -45,7 +41,6 @@ class Logger {
         log?.debug(message)
     }
 
-    
     /// Log in info mode
     ///
     /// - Parameter message: message to be logged to console
@@ -53,7 +48,6 @@ class Logger {
         log?.info(message)
     }
 
-    
     /// Log in warning mode
     ///
     /// - Parameter message: message to be logged to console
@@ -61,7 +55,6 @@ class Logger {
         log?.warning(message)
     }
 
-    
     /// Log in error mode
     ///
     /// - Parameter message: message to be logged to console

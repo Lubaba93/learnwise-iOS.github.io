@@ -10,22 +10,25 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
-    var dependencyInjectionManager: DependencyInjectionManager!
+    var dependencyContainer: DependencyContainer!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        Logger.sharedInstance.configureLogger()
+        // configure dependency Injection
         configureDependencyInjection()
-        AnalyticsManager.analyticsInstance.configureAnalytics()
         
-        
+        // configure crashlytics
+        container?.resolve(AnalyticsManager.self)?.configureAnalytics()
+
+        // configure logger
+        container?.resolve(Logger.self)?.configureLogger()
+
         return true
     }
 
+    /// creates object for DependencyContainer class
     func configureDependencyInjection() {
-        dependencyInjectionManager = DependencyInjectionManager()
+        dependencyContainer = DependencyContainer()
     }
-
 
 }
