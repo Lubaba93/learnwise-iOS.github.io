@@ -13,6 +13,8 @@
 		3B1025AF1EE6800300E6E82E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1025AE1EE6800300E6E82E /* Assets.xcassets */; };
 		3B1025B21EE6800300E6E82E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1025B01EE6800300E6E82E /* LaunchScreen.storyboard */; };
 		3B1025BD1EE6800300E6E82E /* LearnwiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1025BC1EE6800300E6E82E /* LearnwiseTests.swift */; };
+		5BBD047625B934AAFFB70766 /* Pods_Learnwise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F60D5B869D9A022F3C3C1C9 /* Pods_Learnwise.framework */; };
+		C24B0197F23BFBFA62C35F02 /* Pods_LearnwiseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3B87881B88C2393460FF81 /* Pods_LearnwiseTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F60D5B869D9A022F3C3C1C9 /* Pods_Learnwise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learnwise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1025A41EE6800300E6E82E /* Learnwise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learnwise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1025A71EE6800300E6E82E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B1025A91EE6800300E6E82E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,11 @@
 		3B1025B81EE6800300E6E82E /* LearnwiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnwiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1025BC1EE6800300E6E82E /* LearnwiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnwiseTests.swift; sourceTree = "<group>"; };
 		3B1025BE1EE6800300E6E82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40011D8ADF70E877CEA97AA8 /* Pods-LearnwiseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnwiseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnwiseTests/Pods-LearnwiseTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA271EB702C1643320F821C0 /* Pods-LearnwiseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnwiseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnwiseTests/Pods-LearnwiseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DCAA6EFDAD037DEA7A0BE14E /* Pods-Learnwise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learnwise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Learnwise/Pods-Learnwise.debug.xcconfig"; sourceTree = "<group>"; };
+		E514738B9D366B5CB843659B /* Pods-Learnwise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learnwise.release.xcconfig"; path = "Pods/Target Support Files/Pods-Learnwise/Pods-Learnwise.release.xcconfig"; sourceTree = "<group>"; };
+		FB3B87881B88C2393460FF81 /* Pods_LearnwiseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnwiseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BBD047625B934AAFFB70766 /* Pods_Learnwise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24B0197F23BFBFA62C35F02 /* Pods_LearnwiseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17980D3A497A7752919A2540 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F60D5B869D9A022F3C3C1C9 /* Pods_Learnwise.framework */,
+				FB3B87881B88C2393460FF81 /* Pods_LearnwiseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3B10259B1EE6800300E6E82E = {
 			isa = PBXGroup;
 			children = (
 				3B1025A61EE6800300E6E82E /* Learnwise */,
 				3B1025BB1EE6800300E6E82E /* LearnwiseTests */,
 				3B1025A51EE6800300E6E82E /* Products */,
+				F6963057F7539B5F1F8996DC /* Pods */,
+				17980D3A497A7752919A2540 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +117,17 @@
 			path = LearnwiseTests;
 			sourceTree = "<group>";
 		};
+		F6963057F7539B5F1F8996DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA6EFDAD037DEA7A0BE14E /* Pods-Learnwise.debug.xcconfig */,
+				E514738B9D366B5CB843659B /* Pods-Learnwise.release.xcconfig */,
+				CA271EB702C1643320F821C0 /* Pods-LearnwiseTests.debug.xcconfig */,
+				40011D8ADF70E877CEA97AA8 /* Pods-LearnwiseTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,10 +135,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B1025C11EE6800300E6E82E /* Build configuration list for PBXNativeTarget "Learnwise" */;
 			buildPhases = (
+				67DE64B20FF2E5D028B0CF88 /* [CP] Check Pods Manifest.lock */,
 				3B1025A01EE6800300E6E82E /* Sources */,
 				3B1025A11EE6800300E6E82E /* Frameworks */,
 				3B1025A21EE6800300E6E82E /* Resources */,
 				3B1025C71EE68F3200E6E82E /* ShellScript */,
+				285CAD5D102F6374E12F8CD4 /* [CP] Embed Pods Frameworks */,
+				321F1845BCE10F0705E18472 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -121,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B1025C41EE6800300E6E82E /* Build configuration list for PBXNativeTarget "LearnwiseTests" */;
 			buildPhases = (
+				F218C1198AE97978146017D2 /* [CP] Check Pods Manifest.lock */,
 				3B1025B41EE6800300E6E82E /* Sources */,
 				3B1025B51EE6800300E6E82E /* Frameworks */,
 				3B1025B61EE6800300E6E82E /* Resources */,
+				D488FE5298F099ACAF0F272C /* [CP] Embed Pods Frameworks */,
+				BE0893A4CB75901CD7071B3A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +236,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		285CAD5D102F6374E12F8CD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Learnwise/Pods-Learnwise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		321F1845BCE10F0705E18472 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Learnwise/Pods-Learnwise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3B1025C71EE68F3200E6E82E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,6 +278,66 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		67DE64B20FF2E5D028B0CF88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE0893A4CB75901CD7071B3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnwiseTests/Pods-LearnwiseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D488FE5298F099ACAF0F272C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnwiseTests/Pods-LearnwiseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F218C1198AE97978146017D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -354,6 +482,7 @@
 		};
 		3B1025C21EE6800300E6E82E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCAA6EFDAD037DEA7A0BE14E /* Pods-Learnwise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -369,6 +498,7 @@
 		};
 		3B1025C31EE6800300E6E82E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E514738B9D366B5CB843659B /* Pods-Learnwise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -384,6 +514,7 @@
 		};
 		3B1025C51EE6800300E6E82E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA271EB702C1643320F821C0 /* Pods-LearnwiseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -399,6 +530,7 @@
 		};
 		3B1025C61EE6800300E6E82E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40011D8ADF70E877CEA97AA8 /* Pods-LearnwiseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
