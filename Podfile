@@ -13,7 +13,8 @@ def shared_pods
   # Crash reporting library
   pod 'Fabric'
   pod 'Crashlytics'
-
+  # Logging library
+  pod 'SwiftyBeaver’
 end
 
 target 'Learnwise' do
