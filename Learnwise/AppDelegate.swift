@@ -10,10 +10,9 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
     var dependencyContainer: DependencyContainer!
-    
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // configure dependency Injection
         configureDependencyInjection()
@@ -22,10 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
+    /// creates object for DependencyContainer class
     func configureDependencyInjection() {
         dependencyContainer = DependencyContainer()
     }
-    
-    
 
 }
