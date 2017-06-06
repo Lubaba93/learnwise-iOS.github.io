@@ -19,6 +19,7 @@ class DependencyContainer {
     /// Inject Dependencies
     func injectDependencies() {
         registerLogger()
+        registerAnalyticsManager()
     }
 
     /// Register Logger class
@@ -26,5 +27,12 @@ class DependencyContainer {
         container.register(Logger.self) { _ in
             Logger()
         }.inObjectScope(.container)
+    }
+
+    /// Register analytics manager class
+    func registerAnalyticsManager() {
+        container.register(AnalyticsManager.self) { _ in
+            AnalyticsManager()
+            }.inObjectScope(.container)
     }
 }

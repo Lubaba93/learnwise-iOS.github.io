@@ -6,33 +6,34 @@
 //  Copyright © 2017 nineleaps. All rights reserved.
 //
 
-import Crashlytics
 import Fabric
+import Crashlytics
 
 class AnalyticsManager {
+
     /// configure Crashlytics
     func configureAnalytics() {
-       Fabric.with([Crashlytics.self])
+        Fabric.with([Crashlytics.self])
     }
-    /// Crashlytics in error mode
+
+    /// Log error to console
     ///
-    /// - Parameter error: error to be reported
+    /// - Parameter error: error to be logged
     func logError(error: Error) {
         Crashlytics.sharedInstance().recordError(error)
     }
-    
-    /// setUserEmail
+
+    /// Handler to set user email
     ///
     /// - Parameter email: user emailid
     func setUserEmail(email: String) {
         Crashlytics.sharedInstance().setUserEmail(email)
     }
-    /// set user name
+
+    /// Handler to set user name
     ///
     /// - Parameter name: user name
     func userName(name: String) {
         Crashlytics.sharedInstance().setUserName(name)
-    
     }
-    
 }

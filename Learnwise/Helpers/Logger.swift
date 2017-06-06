@@ -22,7 +22,7 @@ class Logger {
         // use custom format and set console output to short time, log level & message
         console.format = "$DHH:mm:ss$d $L $M"
         console.useTerminalColors = true
-        
+
         // add the destinations to SwiftyBeaver
         log?.addDestination(console)
         log?.addDestination(file)

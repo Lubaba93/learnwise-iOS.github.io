@@ -6,15 +6,13 @@
 //  Copyright © 2017 nineleaps. All rights reserved.
 //
 
-import Foundation
-
-// Enum to manage the success and failure cases during network integration
+/// Enum to manage the success and failure cases during network integration
 enum Result<U, T> {
-    case Success(U)
-    case Failure(T)
+    case success(U)
+    case failure(T)
 }
 
-// Enum to manage error encountered during network integration
+/// Enum to manage error encountered during network integration
 enum NetworkError: Error {
     case error(String?)
 }
