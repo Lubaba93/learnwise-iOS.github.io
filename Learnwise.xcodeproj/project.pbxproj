@@ -121,11 +121,11 @@
 			children = (
 				E82110BB1EE6C53900ACBE04 /* Helpers */,
 				3B1025A71EE6800300E6E82E /* AppDelegate.swift */,
-				3B1025A91EE6800300E6E82E /* ViewController.swift */,
 				3B1025AE1EE6800300E6E82E /* Assets.xcassets */,
 				3B1025B31EE6800300E6E82E /* Info.plist */,
 				3B1025B01EE6800300E6E82E /* LaunchScreen.storyboard */,
 				3B1025AB1EE6800300E6E82E /* Main.storyboard */,
+				3B1025A91EE6800300E6E82E /* ViewController.swift */,
 			);
 			path = Learnwise;
 			sourceTree = "<group>";
@@ -143,22 +143,23 @@
 			isa = PBXGroup;
 			children = (
 				3BEBD9981EE6F39A000D4AAF /* DEV.xcconfig */,
-				3BEBD99A1EE6F3A5000D4AAF /* QA.xcconfig */,
 				3BEBD99C1EE6F3C2000D4AAF /* PRD.xcconfig */,
+				3BEBD99A1EE6F3A5000D4AAF /* QA.xcconfig */,
 			);
 			name = EnvironmentConfig;
+			path = EnvironmentConfig;
 			sourceTree = "<group>";
 		};
 		E82110BB1EE6C53900ACBE04 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				FDF6589F1EE6EA40008BA6B8 /* Protocols */,
-				FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */,
+				E82110C11EE6E0A800ACBE04 /* AnalyticsManager.swift */,
 				E82110BC1EE6C55400ACBE04 /* Constants.swift */,
 				E82110B91EE6C2DF00ACBE04 /* DependencyContainer.swift */,
 				3BEBD9921EE6D2B6000D4AAF /* ImageDownloader.swift */,
 				3BEBD9901EE6BE83000D4AAF /* Logger.swift */,
-				E82110C11EE6E0A800ACBE04 /* AnalyticsManager.swift */,
+				FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -180,6 +181,7 @@
 				FDF6589D1EE6D711008BA6B8 /* NetworkManagerProtocol.swift */,
 			);
 			name = Protocols;
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
