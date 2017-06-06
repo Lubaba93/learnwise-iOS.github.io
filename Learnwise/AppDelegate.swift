@@ -17,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         Logger.sharedInstance.configureLogger()
         configureDependencyInjection()
+        AnalyticsManager.analyticsInstance.configureAnalytics()
+        
         
         return true
     }
