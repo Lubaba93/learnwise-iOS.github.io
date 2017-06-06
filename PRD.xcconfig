@@ -1,0 +1,11 @@
+//
+//  PRD.xcconfig
+//  Learnwise
+//
+//  Created by Lubaba Hasnain on 06/06/17.
+//  Copyright © 2017 nineleaps. All rights reserved.
+//
+
+APP_NAME = Learnwise(PRD)
+
+BACKEND_URL = http:\/\/52.66.24.227/api/GHS_iOS/search/
