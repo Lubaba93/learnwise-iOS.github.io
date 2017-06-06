@@ -138,9 +138,7 @@
 		E82110BB1EE6C53900ACBE04 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				E82110B91EE6C2DF00ACBE04 /* DependencyContainer.swift */,
-				FDF6589D1EE6D711008BA6B8 /* NetworkManagerProtocol.swift */,
-				E82110BC1EE6C55400ACBE04 /* Constants.swift */,
+				FDF6589F1EE6EA40008BA6B8 /* Protocols */,
 				FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */,
 				E82110BC1EE6C55400ACBE04 /* Constants.swift */,
 				E82110B91EE6C2DF00ACBE04 /* DependencyContainer.swift */,
@@ -160,6 +158,14 @@
 				40011D8ADF70E877CEA97AA8 /* Pods-LearnwiseTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDF6589F1EE6EA40008BA6B8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FDF6589D1EE6D711008BA6B8 /* NetworkManagerProtocol.swift */,
+			);
+			name = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
