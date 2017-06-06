@@ -20,6 +20,10 @@
 		E82110BA1EE6C2DF00ACBE04 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110B91EE6C2DF00ACBE04 /* DependencyContainer.swift */; };
 		E82110BD1EE6C55400ACBE04 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110BC1EE6C55400ACBE04 /* Constants.swift */; };
 		E82110C21EE6E0A800ACBE04 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110C11EE6E0A800ACBE04 /* AnalyticsManager.swift */; };
+
+		FDBA933D1EE6CA0200CCEB26 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */; };
+		FDF6589E1EE6D711008BA6B8 /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF6589D1EE6D711008BA6B8 /* NetworkManagerProtocol.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,8 @@
 		E82110BC1EE6C55400ACBE04 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E82110C11EE6E0A800ACBE04 /* AnalyticsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
 		FB3B87881B88C2393460FF81 /* Pods_LearnwiseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnwiseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FDF6589D1EE6D711008BA6B8 /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,10 @@
 		E82110BB1EE6C53900ACBE04 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				E82110B91EE6C2DF00ACBE04 /* DependencyContainer.swift */,
+				FDF6589D1EE6D711008BA6B8 /* NetworkManagerProtocol.swift */,
+				E82110BC1EE6C55400ACBE04 /* Constants.swift */,
+				FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */,
 				E82110BC1EE6C55400ACBE04 /* Constants.swift */,
 				E82110B91EE6C2DF00ACBE04 /* DependencyContainer.swift */,
 				3BEBD9921EE6D2B6000D4AAF /* ImageDownloader.swift */,
@@ -389,6 +399,8 @@
 				E82110BA1EE6C2DF00ACBE04 /* DependencyContainer.swift in Sources */,
 
 				3B1025AA1EE6800300E6E82E /* ViewController.swift in Sources */,
+				FDF6589E1EE6D711008BA6B8 /* NetworkManagerProtocol.swift in Sources */,
+				FDBA933D1EE6CA0200CCEB26 /* NetworkManager.swift in Sources */,
 				3BEBD9931EE6D2B6000D4AAF /* ImageDownloader.swift in Sources */,
 				3B1025A81EE6800300E6E82E /* AppDelegate.swift in Sources */,
 				3BEBD9911EE6BE83000D4AAF /* Logger.swift in Sources */,

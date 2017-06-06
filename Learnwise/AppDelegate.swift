@@ -16,7 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // configure dependency Injection
         configureDependencyInjection()
-        
         // configure crashlytics
         container?.resolve(AnalyticsManager.self)?.configureAnalytics()
 
