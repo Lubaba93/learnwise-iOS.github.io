@@ -13,6 +13,7 @@ def shared_pods
   # Crash reporting library
   pod 'Fabric'
   pod 'Crashlytics'
+  pod 'Swinject', '~> 2.0.0'
 
 end
 
