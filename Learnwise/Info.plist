@@ -32,5 +32,19 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+    <key>Fabric</key>
+    <dict>
+        <key>APIKey</key>
+        <string>f261894556e94abd03eb8eb12866a86cd23f3224</string>
+        <key>Kits</key>
+        <array>
+            <dict>
+                <key>KitInfo</key>
+                <dict/>
+                <key>KitName</key>
+                <string>Crashlytics</string>
+            </dict>
+        </array>
+    </dict>
 </dict>
 </plist>
