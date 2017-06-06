@@ -9,23 +9,22 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
+class AppDelegate: UIResponder, UIApplicationDelegate, LoggerProtocol {
+    var log: Logger?
     var window: UIWindow?
     var dependencyContainer: DependencyContainer!
-    
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // configure dependency Injection
         configureDependencyInjection()
         // configure logger
-        container?.resolve(Logger.self)?.configureLogger()
+        log?.configureLogger()
         return true
     }
 
+    /// creates object for DependencyContainer class
     func configureDependencyInjection() {
         dependencyContainer = DependencyContainer()
     }
-    
-    
 
 }
