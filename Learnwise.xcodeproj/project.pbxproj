@@ -17,6 +17,7 @@
 		C24B0197F23BFBFA62C35F02 /* Pods_LearnwiseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3B87881B88C2393460FF81 /* Pods_LearnwiseTests.framework */; };
 		E82110BA1EE6C2DF00ACBE04 /* DependencyInjectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110B91EE6C2DF00ACBE04 /* DependencyInjectionManager.swift */; };
 		E82110BD1EE6C55400ACBE04 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110BC1EE6C55400ACBE04 /* Constants.swift */; };
+		FDBA933D1EE6CA0200CCEB26 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		E82110B91EE6C2DF00ACBE04 /* DependencyInjectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyInjectionManager.swift; sourceTree = "<group>"; };
 		E82110BC1EE6C55400ACBE04 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FB3B87881B88C2393460FF81 /* Pods_LearnwiseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnwiseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				E82110BC1EE6C55400ACBE04 /* Constants.swift */,
+				FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 			files = (
 				E82110BA1EE6C2DF00ACBE04 /* DependencyInjectionManager.swift in Sources */,
 				3B1025AA1EE6800300E6E82E /* ViewController.swift in Sources */,
+				FDBA933D1EE6CA0200CCEB26 /* NetworkManager.swift in Sources */,
 				3B1025A81EE6800300E6E82E /* AppDelegate.swift in Sources */,
 				E82110BD1EE6C55400ACBE04 /* Constants.swift in Sources */,
 			);
