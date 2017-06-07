@@ -4,6 +4,10 @@
 <dict>
 	<key>APP_NAME</key>
 	<string>$(APP_NAME)</string>
+    <key>CRASHLYTICS_API_KEY</key>
+    <string>$(CRASHLYTICS_API_KEY)</string>
+    <key>CRASHLYTICS_BUILD_SECRET</key>
+    <string>$(CRASHLYTICS_BUILD_SECRET)</string>
 	<key>BACKEND_URL</key>
 	<string>$(BACKEND_URL)</string>
 	<key>CFBundleDevelopmentRegion</key>
@@ -27,7 +31,7 @@
 	<key>Fabric</key>
 	<dict>
 		<key>APIKey</key>
-		<string>f261894556e94abd03eb8eb12866a86cd23f3224</string>
+		<string>$(CRASHLYTICS_API_KEY)</string>
 		<key>Kits</key>
 		<array>
 			<dict>

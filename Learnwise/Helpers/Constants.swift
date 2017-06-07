@@ -9,4 +9,4 @@
 import UIKit
 
 /// DI container
-let container = (UIApplication.shared.delegate as? AppDelegate)?.dependencyContainer.container
+let container = (UIApplication.shared.delegate as? AppDelegate)?.dependenciesManager.container
