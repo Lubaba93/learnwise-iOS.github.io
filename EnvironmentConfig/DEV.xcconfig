@@ -8,4 +8,5 @@
 
 APP_NAME = Learnwise(DEV)
 
-BACKEND_URL = http:\/\/52.66.24.227/api/GHS_iOS/search/
+BACKEND_URL = http:\/\/lwdev.nen.org/api
+

@@ -8,4 +8,4 @@
 
 APP_NAME = Learnwise(QA)
 
-BACKEND_URL = http:\/\/52.66.24.227/api/GHS_iOS/search/
+BACKEND_URL = http:\/\/staging.learnwise.org/api/

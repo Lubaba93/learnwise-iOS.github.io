@@ -121,11 +121,11 @@
 			children = (
 				E82110BB1EE6C53900ACBE04 /* Helpers */,
 				3B1025A71EE6800300E6E82E /* AppDelegate.swift */,
+				3B1025A91EE6800300E6E82E /* ViewController.swift */,
 				3B1025AE1EE6800300E6E82E /* Assets.xcassets */,
 				3B1025B31EE6800300E6E82E /* Info.plist */,
 				3B1025B01EE6800300E6E82E /* LaunchScreen.storyboard */,
 				3B1025AB1EE6800300E6E82E /* Main.storyboard */,
-				3B1025A91EE6800300E6E82E /* ViewController.swift */,
 			);
 			path = Learnwise;
 			sourceTree = "<group>";
@@ -146,7 +146,6 @@
 				3BEBD99C1EE6F3C2000D4AAF /* PRD.xcconfig */,
 				3BEBD99A1EE6F3A5000D4AAF /* QA.xcconfig */,
 			);
-			name = EnvironmentConfig;
 			path = EnvironmentConfig;
 			sourceTree = "<group>";
 		};
@@ -180,7 +179,6 @@
 			children = (
 				FDF6589D1EE6D711008BA6B8 /* NetworkManagerProtocol.swift */,
 			);
-			name = Protocols;
 			path = Protocols;
 			sourceTree = "<group>";
 		};
@@ -756,7 +754,7 @@
 			baseConfigurationReference = DCAA6EFDAD037DEA7A0BE14E /* Pods-Learnwise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 4UWCG95258;
 				INFOPLIST_FILE = Learnwise/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
