@@ -19,15 +19,15 @@ extension ImageDownloader {
         KingfisherManager.shared.cache.clearMemoryCache()
         KingfisherManager.shared.cache.clearDiskCache()
     }
-    
+
     /// Set image to the given imageview
     ///
     /// - Parameters:
     ///   - imageview: An UIImageView for setting the iamge
     ///   - url: url of the image
-    func setImage(for imageview: UIImageView, with url: URL, placeholder image: UIImage) {
+    func setImage(for imageview: UIImageView, with url: URL) {
         imageview.kf.setImage(with: url,
-                              placeholder: image,
+                              placeholder: palceholder,
                               options: [.transition(ImageTransition.fade(1))],
                               progressBlock: { receivedSize, totalSize in
 //                                log?.info(message: "\(receivedSize)/\(totalSize)")

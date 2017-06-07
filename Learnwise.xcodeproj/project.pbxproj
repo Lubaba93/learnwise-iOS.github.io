@@ -469,166 +469,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3B1025BF1EE6800300E6E82E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		3B1025C01EE6800300E6E82E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		3B1025C21EE6800300E6E82E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCAA6EFDAD037DEA7A0BE14E /* Pods-Learnwise.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 4UWCG95258;
-				INFOPLIST_FILE = Learnwise/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nineleaps.Learnwise;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "53d63530-4083-4c7e-8776-e8016ca91d40";
-				PROVISIONING_PROFILE_SPECIFIER = "Learnwise Development Certificate";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		3B1025C31EE6800300E6E82E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E514738B9D366B5CB843659B /* Pods-Learnwise.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 4UWCG95258;
-				INFOPLIST_FILE = Learnwise/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nineleaps.Learnwise;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ed7b7286-f5c8-4434-b557-10f6ce9f2685";
-				PROVISIONING_PROFILE_SPECIFIER = "Learnwise Distribution Certificates";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		3B1025C51EE6800300E6E82E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA271EB702C1643320F821C0 /* Pods-LearnwiseTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 4UWCG95258;
-				INFOPLIST_FILE = LearnwiseTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nineleaps.LearnwiseTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learnwise.app/Learnwise";
-			};
-			name = Debug;
-		};
-		3B1025C61EE6800300E6E82E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40011D8ADF70E877CEA97AA8 /* Pods-LearnwiseTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 4UWCG95258;
-				INFOPLIST_FILE = LearnwiseTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nineleaps.LearnwiseTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learnwise.app/Learnwise";
-			};
-			name = Release;
-		};
 		3BEBD99E1EE6F495000D4AAF /* DEV */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3BEBD9981EE6F39A000D4AAF /* DEV.xcconfig */;
@@ -866,8 +706,6 @@
 		3B10259F1EE6800300E6E82E /* Build configuration list for PBXProject "Learnwise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B1025BF1EE6800300E6E82E /* Debug */,
-				3B1025C01EE6800300E6E82E /* Release */,
 				3BEBD9A41EE6F4BF000D4AAF /* PRD */,
 				3BEBD9A11EE6F4B1000D4AAF /* QA */,
 				3BEBD99E1EE6F495000D4AAF /* DEV */,
@@ -878,8 +716,6 @@
 		3B1025C11EE6800300E6E82E /* Build configuration list for PBXNativeTarget "Learnwise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B1025C21EE6800300E6E82E /* Debug */,
-				3B1025C31EE6800300E6E82E /* Release */,
 				3BEBD9A51EE6F4BF000D4AAF /* PRD */,
 				3BEBD9A21EE6F4B1000D4AAF /* QA */,
 				3BEBD99F1EE6F495000D4AAF /* DEV */,
@@ -890,8 +726,6 @@
 		3B1025C41EE6800300E6E82E /* Build configuration list for PBXNativeTarget "LearnwiseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B1025C51EE6800300E6E82E /* Debug */,
-				3B1025C61EE6800300E6E82E /* Release */,
 				3BEBD9A61EE6F4BF000D4AAF /* PRD */,
 				3BEBD9A31EE6F4B1000D4AAF /* QA */,
 				3BEBD9A01EE6F495000D4AAF /* DEV */,
