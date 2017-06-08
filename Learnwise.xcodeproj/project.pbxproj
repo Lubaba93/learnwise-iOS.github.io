@@ -18,8 +18,8 @@
 		3BEBD9991EE6F39A000D4AAF /* DEV.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3BEBD9981EE6F39A000D4AAF /* DEV.xcconfig */; };
 		3BEBD99B1EE6F3AA000D4AAF /* QA.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3BEBD99A1EE6F3A5000D4AAF /* QA.xcconfig */; };
 		3BEBD99D1EE6F3C2000D4AAF /* PRD.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3BEBD99C1EE6F3C2000D4AAF /* PRD.xcconfig */; };
-		5BBD047625B934AAFFB70766 /* Pods_Learnwise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F60D5B869D9A022F3C3C1C9 /* Pods_Learnwise.framework */; };
-		C24B0197F23BFBFA62C35F02 /* Pods_LearnwiseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3B87881B88C2393460FF81 /* Pods_LearnwiseTests.framework */; };
+		574F13695712C70F3CBA9970 /* Pods_LearnwiseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74FC410A88CF246174B6DF2C /* Pods_LearnwiseTests.framework */; };
+		C892B29DAD61713EF960AE5C /* Pods_Learnwise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D02DB32BEF372899B26AF2 /* Pods_Learnwise.framework */; };
 		E82110BA1EE6C2DF00ACBE04 /* DependenciesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110B91EE6C2DF00ACBE04 /* DependenciesManager.swift */; };
 		E82110BD1EE6C55400ACBE04 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110BC1EE6C55400ACBE04 /* Constants.swift */; };
 		E82110C21EE6E0A800ACBE04 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110C11EE6E0A800ACBE04 /* AnalyticsManager.swift */; };
@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F60D5B869D9A022F3C3C1C9 /* Pods_Learnwise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learnwise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF85C1A9B1F5CCF515422B9 /* Pods-LearnwiseTests.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnwiseTests.qa.xcconfig"; path = "Pods/Target Support Files/Pods-LearnwiseTests/Pods-LearnwiseTests.qa.xcconfig"; sourceTree = "<group>"; };
 		3B1025A41EE6800300E6E82E /* Learnwise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learnwise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1025A71EE6800300E6E82E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B1025A91EE6800300E6E82E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,14 +54,16 @@
 		3BEBD9981EE6F39A000D4AAF /* DEV.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DEV.xcconfig; sourceTree = "<group>"; };
 		3BEBD99A1EE6F3A5000D4AAF /* QA.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QA.xcconfig; sourceTree = "<group>"; };
 		3BEBD99C1EE6F3C2000D4AAF /* PRD.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = PRD.xcconfig; sourceTree = "<group>"; };
-		40011D8ADF70E877CEA97AA8 /* Pods-LearnwiseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnwiseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnwiseTests/Pods-LearnwiseTests.release.xcconfig"; sourceTree = "<group>"; };
-		CA271EB702C1643320F821C0 /* Pods-LearnwiseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnwiseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnwiseTests/Pods-LearnwiseTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DCAA6EFDAD037DEA7A0BE14E /* Pods-Learnwise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learnwise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Learnwise/Pods-Learnwise.debug.xcconfig"; sourceTree = "<group>"; };
-		E514738B9D366B5CB843659B /* Pods-Learnwise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learnwise.release.xcconfig"; path = "Pods/Target Support Files/Pods-Learnwise/Pods-Learnwise.release.xcconfig"; sourceTree = "<group>"; };
+		3DAD67B34442A136E64E7E8E /* Pods-LearnwiseTests.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnwiseTests.dev.xcconfig"; path = "Pods/Target Support Files/Pods-LearnwiseTests/Pods-LearnwiseTests.dev.xcconfig"; sourceTree = "<group>"; };
+		55418F2EC69662FE4F219E70 /* Pods-Learnwise.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learnwise.qa.xcconfig"; path = "Pods/Target Support Files/Pods-Learnwise/Pods-Learnwise.qa.xcconfig"; sourceTree = "<group>"; };
+		71D02DB32BEF372899B26AF2 /* Pods_Learnwise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learnwise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74FC410A88CF246174B6DF2C /* Pods_LearnwiseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnwiseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54A44577A4AF6CB475F9DB4 /* Pods-Learnwise.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learnwise.dev.xcconfig"; path = "Pods/Target Support Files/Pods-Learnwise/Pods-Learnwise.dev.xcconfig"; sourceTree = "<group>"; };
+		DD0D5B2AFA971063CA119398 /* Pods-LearnwiseTests.prd.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnwiseTests.prd.xcconfig"; path = "Pods/Target Support Files/Pods-LearnwiseTests/Pods-LearnwiseTests.prd.xcconfig"; sourceTree = "<group>"; };
+		E4B02FBC4F434C0D1ABA91C7 /* Pods-Learnwise.prd.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learnwise.prd.xcconfig"; path = "Pods/Target Support Files/Pods-Learnwise/Pods-Learnwise.prd.xcconfig"; sourceTree = "<group>"; };
 		E82110B91EE6C2DF00ACBE04 /* DependenciesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependenciesManager.swift; sourceTree = "<group>"; };
 		E82110BC1EE6C55400ACBE04 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E82110C11EE6E0A800ACBE04 /* AnalyticsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
-		FB3B87881B88C2393460FF81 /* Pods_LearnwiseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnwiseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		FDF6589D1EE6D711008BA6B8 /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BBD047625B934AAFFB70766 /* Pods_Learnwise.framework in Frameworks */,
+				C892B29DAD61713EF960AE5C /* Pods_Learnwise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,31 +81,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C24B0197F23BFBFA62C35F02 /* Pods_LearnwiseTests.framework in Frameworks */,
+				574F13695712C70F3CBA9970 /* Pods_LearnwiseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17980D3A497A7752919A2540 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2F60D5B869D9A022F3C3C1C9 /* Pods_Learnwise.framework */,
-				FB3B87881B88C2393460FF81 /* Pods_LearnwiseTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		3B10259B1EE6800300E6E82E = {
 			isa = PBXGroup;
 			children = (
 				3BEBD9971EE6F326000D4AAF /* EnvironmentConfig */,
-				17980D3A497A7752919A2540 /* Frameworks */,
 				3B1025A61EE6800300E6E82E /* Learnwise */,
 				3B1025BB1EE6800300E6E82E /* LearnwiseTests */,
-				F6963057F7539B5F1F8996DC /* Pods */,
 				3B1025A51EE6800300E6E82E /* Products */,
+				C6FA9F6A9A2A39AE66911BAF /* Pods */,
+				873FE56D58AD7F5F38C30048 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +142,28 @@
 			path = EnvironmentConfig;
 			sourceTree = "<group>";
 		};
+		873FE56D58AD7F5F38C30048 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71D02DB32BEF372899B26AF2 /* Pods_Learnwise.framework */,
+				74FC410A88CF246174B6DF2C /* Pods_LearnwiseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6FA9F6A9A2A39AE66911BAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4B02FBC4F434C0D1ABA91C7 /* Pods-Learnwise.prd.xcconfig */,
+				55418F2EC69662FE4F219E70 /* Pods-Learnwise.qa.xcconfig */,
+				A54A44577A4AF6CB475F9DB4 /* Pods-Learnwise.dev.xcconfig */,
+				DD0D5B2AFA971063CA119398 /* Pods-LearnwiseTests.prd.xcconfig */,
+				0EF85C1A9B1F5CCF515422B9 /* Pods-LearnwiseTests.qa.xcconfig */,
+				3DAD67B34442A136E64E7E8E /* Pods-LearnwiseTests.dev.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E82110BB1EE6C53900ACBE04 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,17 +176,6 @@
 				FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */,
 			);
 			path = Helpers;
-			sourceTree = "<group>";
-		};
-		F6963057F7539B5F1F8996DC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DCAA6EFDAD037DEA7A0BE14E /* Pods-Learnwise.debug.xcconfig */,
-				E514738B9D366B5CB843659B /* Pods-Learnwise.release.xcconfig */,
-				CA271EB702C1643320F821C0 /* Pods-LearnwiseTests.debug.xcconfig */,
-				40011D8ADF70E877CEA97AA8 /* Pods-LearnwiseTests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		FDF6589F1EE6EA40008BA6B8 /* Protocols */ = {
@@ -189,14 +193,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B1025C11EE6800300E6E82E /* Build configuration list for PBXNativeTarget "Learnwise" */;
 			buildPhases = (
-				67DE64B20FF2E5D028B0CF88 /* [CP] Check Pods Manifest.lock */,
+				92481BB4A00844B4B99133EF /* [CP] Check Pods Manifest.lock */,
 				3B1025A01EE6800300E6E82E /* Sources */,
 				3B1025A11EE6800300E6E82E /* Frameworks */,
 				3B1025A21EE6800300E6E82E /* Resources */,
 				3B1025C71EE68F3200E6E82E /* ShellScript */,
-				285CAD5D102F6374E12F8CD4 /* [CP] Embed Pods Frameworks */,
-				321F1845BCE10F0705E18472 /* [CP] Copy Pods Resources */,
 				3BCF3E2C1EE81539005EBF57 /* ShellScript */,
+				95FB206F739CB30952E67E64 /* [CP] Embed Pods Frameworks */,
+				6DAF559CE2889F0AD44EE84E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,12 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B1025C41EE6800300E6E82E /* Build configuration list for PBXNativeTarget "LearnwiseTests" */;
 			buildPhases = (
-				F218C1198AE97978146017D2 /* [CP] Check Pods Manifest.lock */,
+				48176FAC1451F1FDA8994B6A /* [CP] Check Pods Manifest.lock */,
 				3B1025B41EE6800300E6E82E /* Sources */,
 				3B1025B51EE6800300E6E82E /* Frameworks */,
 				3B1025B61EE6800300E6E82E /* Resources */,
-				D488FE5298F099ACAF0F272C /* [CP] Embed Pods Frameworks */,
-				BE0893A4CB75901CD7071B3A /* [CP] Copy Pods Resources */,
+				9B8940E995C836D1029442E4 /* [CP] Embed Pods Frameworks */,
+				F01D8A67B1A31CC802430603 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -294,36 +298,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		285CAD5D102F6374E12F8CD4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Learnwise/Pods-Learnwise-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		321F1845BCE10F0705E18472 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Learnwise/Pods-Learnwise-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3B1025C71EE68F3200E6E82E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,7 +324,7 @@
 			shellPath = /bin/sh;
 			shellScript = "if [ \"${CONFIGURATION}\" != \"DEV\" ]; then\necho \"Building Fabric\"\n\"${PODS_ROOT}/Fabric/run\" ${CRASHLYTICS_API_KEY} ${CRASHLYTICS_BUILD_SECRET}\nfi";
 		};
-		67DE64B20FF2E5D028B0CF88 /* [CP] Check Pods Manifest.lock */ = {
+		48176FAC1451F1FDA8994B6A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -365,7 +339,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		BE0893A4CB75901CD7071B3A /* [CP] Copy Pods Resources */ = {
+		6DAF559CE2889F0AD44EE84E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,10 +351,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnwiseTests/Pods-LearnwiseTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Learnwise/Pods-Learnwise-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D488FE5298F099ACAF0F272C /* [CP] Embed Pods Frameworks */ = {
+		92481BB4A00844B4B99133EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95FB206F739CB30952E67E64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Learnwise/Pods-Learnwise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B8940E995C836D1029442E4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -395,19 +399,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnwiseTests/Pods-LearnwiseTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F218C1198AE97978146017D2 /* [CP] Check Pods Manifest.lock */ = {
+		F01D8A67B1A31CC802430603 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnwiseTests/Pods-LearnwiseTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -496,6 +500,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -514,11 +519,13 @@
 		};
 		3BEBD99F1EE6F495000D4AAF /* DEV */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCAA6EFDAD037DEA7A0BE14E /* Pods-Learnwise.debug.xcconfig */;
+			baseConfigurationReference = A54A44577A4AF6CB475F9DB4 /* Pods-Learnwise.dev.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 4UWCG95258;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = Learnwise/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -532,11 +539,12 @@
 		};
 		3BEBD9A01EE6F495000D4AAF /* DEV */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA271EB702C1643320F821C0 /* Pods-LearnwiseTests.debug.xcconfig */;
+			baseConfigurationReference = 3DAD67B34442A136E64E7E8E /* Pods-LearnwiseTests.dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 4UWCG95258;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = LearnwiseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nineleaps.LearnwiseTests;
@@ -573,6 +581,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -591,11 +600,13 @@
 		};
 		3BEBD9A21EE6F4B1000D4AAF /* QA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCAA6EFDAD037DEA7A0BE14E /* Pods-Learnwise.debug.xcconfig */;
+			baseConfigurationReference = 55418F2EC69662FE4F219E70 /* Pods-Learnwise.qa.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 4UWCG95258;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = Learnwise/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -609,11 +620,12 @@
 		};
 		3BEBD9A31EE6F4B1000D4AAF /* QA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA271EB702C1643320F821C0 /* Pods-LearnwiseTests.debug.xcconfig */;
+			baseConfigurationReference = 0EF85C1A9B1F5CCF515422B9 /* Pods-LearnwiseTests.qa.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 4UWCG95258;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = LearnwiseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nineleaps.LearnwiseTests;
@@ -650,6 +662,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -668,11 +681,13 @@
 		};
 		3BEBD9A51EE6F4BF000D4AAF /* PRD */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E514738B9D366B5CB843659B /* Pods-Learnwise.release.xcconfig */;
+			baseConfigurationReference = E4B02FBC4F434C0D1ABA91C7 /* Pods-Learnwise.prd.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 4UWCG95258;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = Learnwise/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -686,11 +701,12 @@
 		};
 		3BEBD9A61EE6F4BF000D4AAF /* PRD */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40011D8ADF70E877CEA97AA8 /* Pods-LearnwiseTests.release.xcconfig */;
+			baseConfigurationReference = DD0D5B2AFA971063CA119398 /* Pods-LearnwiseTests.prd.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 4UWCG95258;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = LearnwiseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nineleaps.LearnwiseTests;
@@ -711,7 +727,7 @@
 				3BEBD99E1EE6F495000D4AAF /* DEV */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = PRD;
+			defaultConfigurationName = DEV;
 		};
 		3B1025C11EE6800300E6E82E /* Build configuration list for PBXNativeTarget "Learnwise" */ = {
 			isa = XCConfigurationList;
@@ -721,7 +737,7 @@
 				3BEBD99F1EE6F495000D4AAF /* DEV */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = PRD;
+			defaultConfigurationName = DEV;
 		};
 		3B1025C41EE6800300E6E82E /* Build configuration list for PBXNativeTarget "LearnwiseTests" */ = {
 			isa = XCConfigurationList;
@@ -731,7 +747,7 @@
 				3BEBD9A01EE6F495000D4AAF /* DEV */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = PRD;
+			defaultConfigurationName = DEV;
 		};
 /* End XCConfigurationList section */
 	};
