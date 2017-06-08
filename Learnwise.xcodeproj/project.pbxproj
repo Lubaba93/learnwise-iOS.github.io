@@ -13,6 +13,8 @@
 		3B1025AF1EE6800300E6E82E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1025AE1EE6800300E6E82E /* Assets.xcassets */; };
 		3B1025B21EE6800300E6E82E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1025B01EE6800300E6E82E /* LaunchScreen.storyboard */; };
 		3B1025BD1EE6800300E6E82E /* LearnwiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1025BC1EE6800300E6E82E /* LearnwiseTests.swift */; };
+		3B4976A51EE982AF00F8DE89 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976A41EE982AF00F8DE89 /* ViewControllerTests.swift */; };
+		3B4976A71EE983A000F8DE89 /* AnalyticsManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976A61EE983A000F8DE89 /* AnalyticsManagerTests.swift */; };
 		3BEBD9911EE6BE83000D4AAF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBD9901EE6BE83000D4AAF /* Logger.swift */; };
 		3BEBD9931EE6D2B6000D4AAF /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBD9921EE6D2B6000D4AAF /* ImageDownloader.swift */; };
 		3BEBD9991EE6F39A000D4AAF /* DEV.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3BEBD9981EE6F39A000D4AAF /* DEV.xcconfig */; };
@@ -49,6 +51,8 @@
 		3B1025B81EE6800300E6E82E /* LearnwiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnwiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1025BC1EE6800300E6E82E /* LearnwiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnwiseTests.swift; sourceTree = "<group>"; };
 		3B1025BE1EE6800300E6E82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B4976A41EE982AF00F8DE89 /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		3B4976A61EE983A000F8DE89 /* AnalyticsManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsManagerTests.swift; sourceTree = "<group>"; };
 		3BEBD9901EE6BE83000D4AAF /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		3BEBD9921EE6D2B6000D4AAF /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		3BEBD9981EE6F39A000D4AAF /* DEV.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DEV.xcconfig; sourceTree = "<group>"; };
@@ -128,6 +132,8 @@
 			children = (
 				3B1025BE1EE6800300E6E82E /* Info.plist */,
 				3B1025BC1EE6800300E6E82E /* LearnwiseTests.swift */,
+				3B4976A41EE982AF00F8DE89 /* ViewControllerTests.swift */,
+				3B4976A61EE983A000F8DE89 /* AnalyticsManagerTests.swift */,
 			);
 			path = LearnwiseTests;
 			sourceTree = "<group>";
@@ -437,6 +443,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B4976A51EE982AF00F8DE89 /* ViewControllerTests.swift in Sources */,
+				3B4976A71EE983A000F8DE89 /* AnalyticsManagerTests.swift in Sources */,
 				3B1025BD1EE6800300E6E82E /* LearnwiseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

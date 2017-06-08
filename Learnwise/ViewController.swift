@@ -7,16 +7,16 @@
 //
 
 import UIKit
-import Crashlytics
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        testForJenkins()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func testForJenkins() {
+        container?.resolve(Logger.self)?.log?.warning("May Day!")
+        container?.resolve(Logger.self)?.log?.debug("Not visible!")
     }
 }

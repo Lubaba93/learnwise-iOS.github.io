@@ -20,8 +20,12 @@ class Logger {
         let file = FileDestination()
 
         // use custom format and set console output to short time, log level & message
-        console.format = "$DHH:mm:ss$d $L $M"
+        console.format = "$DHH:mm:ss$d $N.$F():$l $L: $M"
         console.useTerminalColors = true
+        let filter1 = Filters.Path.contains("ViewController", minLevel: .info)
+        let filter2 = Filters.Function.contains("viewDidLoad", required: true)
+        console.addFilter(filter1)
+        console.addFilter(filter2)
 
         // add the destinations to SwiftyBeaver
         log?.addDestination(console)
