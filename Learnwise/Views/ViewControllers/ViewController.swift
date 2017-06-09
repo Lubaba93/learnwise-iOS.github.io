@@ -9,14 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var log: LoggingManager?
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        log = container?.resolve(LoggingManager.self)
         testForJenkins()
     }
 
     func testForJenkins() {
-        container?.resolve(LoggingManager.self)?.log?.warning("May Day!")
-        container?.resolve(LoggingManager.self)?.log?.debug("Not visible!")
+        log?.warning(message: "May Day!")
+        log?.debug(message: "Not visible!")
     }
 }
