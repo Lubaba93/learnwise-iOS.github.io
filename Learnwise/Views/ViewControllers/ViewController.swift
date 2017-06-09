@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
 
     func testForJenkins() {
-        container?.resolve(Logger.self)?.log?.warning("May Day!")
-        container?.resolve(Logger.self)?.log?.debug("Not visible!")
+        container?.resolve(LoggingManager.self)?.log?.warning("May Day!")
+        container?.resolve(LoggingManager.self)?.log?.debug("Not visible!")
     }
 }

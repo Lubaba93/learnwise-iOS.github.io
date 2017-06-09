@@ -18,9 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // configure dependency Injection
         configureDependencyInjection()
         // configure crashlytics
-        container?.resolve(AnalyticsManager.self)?.configureAnalytics()
+        container?.resolve(CrashReportingManager.self)?.configureAnalytics()
         // configure logger
-        container?.resolve(Logger.self)?.configureLogger()
+        container?.resolve(LoggingManager.self)?.configureLogger()
         return true
     }
 

@@ -24,8 +24,8 @@ class DependenciesManager {
 
     /// Register Logger class
     func registerLogger() {
-        container.register(Logger.self) { _ in
-            Logger()
+        container.register(LoggingManager.self) { _ in
+            LoggingManager()
         }.inObjectScope(.container)
     }
 
