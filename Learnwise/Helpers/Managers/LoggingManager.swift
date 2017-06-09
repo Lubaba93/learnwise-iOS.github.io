@@ -8,7 +8,7 @@
 
 import SwiftyBeaver
 
-class Logger {
+class LoggingManager {
     var log: SwiftyBeaver.Type? = nil
 
     /// Configure the logger with default properties
