@@ -27,7 +27,6 @@
 		3B4976D41EEA89F900F8DE89 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976D31EEA89F900F8DE89 /* UIView.swift */; };
 		3B4976D61EEA8A1C00F8DE89 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976D51EEA8A1C00F8DE89 /* UIFont.swift */; };
 		3B4976D81EEA8A2500F8DE89 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976D71EEA8A2500F8DE89 /* UIColor.swift */; };
-		3B4976DC1EEAA37E00F8DE89 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976DB1EEAA37E00F8DE89 /* UIStoryboard.swift */; };
 		3B4976DE1EEABC3400F8DE89 /* DateFormats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976DD1EEABC3400F8DE89 /* DateFormats.swift */; };
 		3B4976E01EEACB8300F8DE89 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976DF1EEACB8300F8DE89 /* UIAlertController.swift */; };
 		3BEBD9911EE6BE83000D4AAF /* LoggingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBD9901EE6BE83000D4AAF /* LoggingManager.swift */; };
@@ -81,7 +80,6 @@
 		3B4976D31EEA89F900F8DE89 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		3B4976D51EEA8A1C00F8DE89 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		3B4976D71EEA8A2500F8DE89 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		3B4976DB1EEAA37E00F8DE89 /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIStoryboard.swift; path = ../../../../../.Trash/UIStoryboard.swift; sourceTree = "<group>"; };
 		3B4976DD1EEABC3400F8DE89 /* DateFormats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormats.swift; sourceTree = "<group>"; };
 		3B4976DF1EEACB8300F8DE89 /* UIAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
 		3BEBD9901EE6BE83000D4AAF /* LoggingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggingManager.swift; sourceTree = "<group>"; };
@@ -194,12 +192,11 @@
 			children = (
 				3B4976CD1EEA89AF00F8DE89 /* CGFloat.swift */,
 				3B4976CF1EEA89B800F8DE89 /* String.swift */,
+				3B4976DF1EEACB8300F8DE89 /* UIAlertController.swift */,
 				3B4976D71EEA8A2500F8DE89 /* UIColor.swift */,
 				3B4976D51EEA8A1C00F8DE89 /* UIFont.swift */,
-				3B4976DB1EEAA37E00F8DE89 /* UIStoryboard.swift */,
 				3B4976D31EEA89F900F8DE89 /* UIView.swift */,
 				3B4976D11EEA89D800F8DE89 /* UIViewController.swift */,
-				3B4976DF1EEACB8300F8DE89 /* UIAlertController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -228,10 +225,10 @@
 		3B4976B61EEA77E500F8DE89 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				3B4976DD1EEABC3400F8DE89 /* DateFormats.swift */,
 				3B4976C91EEA87BA00F8DE89 /* ErrorMessages.swift */,
 				E82110BC1EE6C55400ACBE04 /* Globals.swift */,
 				3B4976CB1EEA881600F8DE89 /* Segues.swift */,
-				3B4976DD1EEABC3400F8DE89 /* DateFormats.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -571,7 +568,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B4976DC1EEAA37E00F8DE89 /* UIStoryboard.swift in Sources */,
 				E82110C21EE6E0A800ACBE04 /* CrashReportingManager.swift in Sources */,
 				E8E847E51EEAA5C700F8BAB4 /* DateFormatManager.swift in Sources */,
 				3B4976C81EEA7E9100F8DE89 /* DummyView.swift in Sources */,
@@ -698,7 +694,7 @@
 				INFOPLIST_FILE = Learnwise/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nineleaps.Learnwise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "ed7b7286-f5c8-4434-b557-10f6ce9f2685";
@@ -782,7 +778,7 @@
 				INFOPLIST_FILE = Learnwise/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nineleaps.Learnwise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "ed7b7286-f5c8-4434-b557-10f6ce9f2685";
@@ -866,7 +862,7 @@
 				INFOPLIST_FILE = Learnwise/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nineleaps.Learnwise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "ed7b7286-f5c8-4434-b557-10f6ce9f2685";
