@@ -20,6 +20,8 @@ def shared_pods
   # Reporting crash
   pod 'Fabric'
   pod 'Crashlytics'
+  # Encapsulating model data
+  pod 'Box', ‘~> 2.0’
 
 end
 

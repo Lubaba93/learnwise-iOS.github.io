@@ -62,7 +62,6 @@ class DateFormatManager {
         if let date = date {
             newDate =  dateFormat.string(from: date)
         }
-        print("newDate:\(newDate)")
         return newDate
     }
 
