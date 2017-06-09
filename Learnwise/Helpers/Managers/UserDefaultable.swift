@@ -13,7 +13,7 @@ protocol UserDefaultable {
 }
 
 extension UserDefaultable where UserDefaultKey.RawValue == String {
-    
+
     /// Set value to the User Defaults for a particular key
     ///
     /// - Parameters:
@@ -23,7 +23,7 @@ extension UserDefaultable where UserDefaultKey.RawValue == String {
         let key = key.rawValue
         UserDefaults.standard.set(value, forKey: key)
     }
-    
+
     /// Get value from User Defaults for a given key
     ///
     /// - Parameter key: Unique key for a given value

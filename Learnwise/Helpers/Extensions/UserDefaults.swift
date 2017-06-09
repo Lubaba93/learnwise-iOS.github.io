@@ -9,7 +9,7 @@
 import Foundation
 
 extension UserDefaults: UserDefaultable {
-    
+
     /// Enum containing unique keys to set to User Defaults. Declared in UserDefalutable
     ///
     /// - isUserLoggedIn: Enum case whether the user is logged in

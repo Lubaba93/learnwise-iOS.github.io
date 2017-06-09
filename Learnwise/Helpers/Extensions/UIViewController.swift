@@ -19,7 +19,7 @@ extension UIViewController {
 
         switch destination {
         case .dummyScreen(model: _):
-            segue = "DummySegue"
+            segue = Segues.kDummySegue
         }
         performSegue(withIdentifier: segue, sender: Box(destination))
     }
