@@ -10,15 +10,6 @@ import Foundation
 
 class DateFormatManager {
     var dateFormatter: DateFormatter!
-    let kYearMonthDayFormat: String = "yyyy-MM-dd"
-    let kFullDateWithTimeZoneIdFormat: String = "yyyy-MM-dd'T'HH:mm:ssZZZZZ"
-    let kFullDateWithTimeZoneOffsetFormat: String = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
-    let kMonthDayYearTimeFormat: String = "MMMM d, yyyy H:mm a"
-    let kShortMonthDayYearFormat: String = "MMM dd, yyyy"
-    let kDateMonthYearFormat: String = "dd/MM/yyyy"
-    let kMonthDateYearFormat : String = "MM/dd/yyyy"
-    
-    let kEnUsLocaleIdentifier: String = "en_US_POSIX"
     
     /// get DateFormatter
     ///
@@ -27,10 +18,10 @@ class DateFormatManager {
     func getDateFormatterWithFormat(format: String) -> DateFormatter {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = format
-        dateFormatter.locale = NSLocale(localeIdentifier: kEnUsLocaleIdentifier) as Locale!
+        dateFormatter.locale = NSLocale(localeIdentifier: DateFormats.kEnUsLocaleIdentifier) as Locale!
         return dateFormatter
     }
-    
+
     /// Convert NSdate to String
     ///
     /// - Parameters:
@@ -44,7 +35,7 @@ class DateFormatManager {
         }
         return ""
     }
-    
+
     /// Convert Date as String to NSDate
     ///
     /// - Parameters:
@@ -57,16 +48,16 @@ class DateFormatManager {
             return dateFormatter.date(from: dateInString) as NSDate?
         }
     }
-    
+
     /// Convert date as String with format "yyyy-MM-dd'T'HH:mm:ss.SSSZ" to this format "yyyy-MM-dd"
     ///
     /// - Parameter date: date as String
     /// - Returns: date in "yyyy-MM-dd" format
     func getDashedDateString(date: String) -> String {
         let myDate = date
-        let dateFormat = getDateFormatterWithFormat(format: kFullDateWithTimeZoneOffsetFormat)
+        let dateFormat = getDateFormatterWithFormat(format: DateFormats.kFullDateWithTimeZoneOffsetFormat)
         let date = dateFormat.date(from: myDate)
-        dateFormat.dateFormat =  kYearMonthDayFormat
+        dateFormat.dateFormat =  DateFormats.kYearMonthDayFormat
         var newDate  = ""
         if let date = date {
             newDate =  dateFormat.string(from: date)
@@ -74,33 +65,35 @@ class DateFormatManager {
         print("newDate:\(newDate)")
         return newDate
     }
+
     /// Convert date as String with format "yyyy-MM-dd'T'HH:mm:ss.SSSZ"  to this format "MM/dd/yyyy"
     ///
     /// - Parameter date: date as String
     /// - Returns: date in "MM/dd/yyyy" format
     func getDateStringWithSlashForamt(date: String) -> String {
         let myDate = date
-        let dateFormat = getDateFormatterWithFormat(format: kFullDateWithTimeZoneOffsetFormat)
+        let dateFormat = getDateFormatterWithFormat(format: DateFormats.kFullDateWithTimeZoneOffsetFormat)
         let date = dateFormat.date(from: myDate)
-        dateFormat.dateFormat =  kMonthDateYearFormat
+        dateFormat.dateFormat =  DateFormats.kMonthDateYearFormat
         var newDate  = ""
         if let date = date {
             newDate =  dateFormat.string(from: date)
         }
         return newDate
     }
+
     /// Convert date as String with format "yyyy-MM-dd'T'HH:mm:ss.SSSZ" to "MMM dd, yyyy""
     ///
     /// - Parameter currentDate: date as String
     /// - Returns: date in ""MMM dd, yyyy"
     func getDateStringWithDash(currentDate: String) -> String {
-        let dateFormat = getDateFormatterWithFormat(format: kFullDateWithTimeZoneOffsetFormat)
+        let dateFormat = getDateFormatterWithFormat(format: DateFormats.kFullDateWithTimeZoneOffsetFormat)
         let date = dateFormat.date(from:currentDate)
-        dateFormat.dateFormat =  kShortMonthDayYearFormat
+        dateFormat.dateFormat = DateFormats.kShortMonthDayYearFormat
         var newDate  = ""
         if let date = date {
             newDate =  dateFormat.string(from: date)
         }
         return newDate
-}
+    }
 }

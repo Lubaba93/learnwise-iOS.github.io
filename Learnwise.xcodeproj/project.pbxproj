@@ -28,6 +28,7 @@
 		3B4976D61EEA8A1C00F8DE89 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976D51EEA8A1C00F8DE89 /* UIFont.swift */; };
 		3B4976D81EEA8A2500F8DE89 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976D71EEA8A2500F8DE89 /* UIColor.swift */; };
 		3B4976DC1EEAA37E00F8DE89 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976DB1EEAA37E00F8DE89 /* UIStoryboard.swift */; };
+		3B4976DE1EEABC3400F8DE89 /* DateFormats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976DD1EEABC3400F8DE89 /* DateFormats.swift */; };
 		3BEBD9911EE6BE83000D4AAF /* LoggingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBD9901EE6BE83000D4AAF /* LoggingManager.swift */; };
 		3BEBD9931EE6D2B6000D4AAF /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBD9921EE6D2B6000D4AAF /* ImageManager.swift */; };
 		3BEBD9991EE6F39A000D4AAF /* DEV.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3BEBD9981EE6F39A000D4AAF /* DEV.xcconfig */; };
@@ -80,6 +81,7 @@
 		3B4976D51EEA8A1C00F8DE89 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		3B4976D71EEA8A2500F8DE89 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		3B4976DB1EEAA37E00F8DE89 /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIStoryboard.swift; path = ../../../../../.Trash/UIStoryboard.swift; sourceTree = "<group>"; };
+		3B4976DD1EEABC3400F8DE89 /* DateFormats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormats.swift; sourceTree = "<group>"; };
 		3BEBD9901EE6BE83000D4AAF /* LoggingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggingManager.swift; sourceTree = "<group>"; };
 		3BEBD9921EE6D2B6000D4AAF /* ImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		3BEBD9981EE6F39A000D4AAF /* DEV.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DEV.xcconfig; sourceTree = "<group>"; };
@@ -192,9 +194,9 @@
 				3B4976CF1EEA89B800F8DE89 /* String.swift */,
 				3B4976D71EEA8A2500F8DE89 /* UIColor.swift */,
 				3B4976D51EEA8A1C00F8DE89 /* UIFont.swift */,
+				3B4976DB1EEAA37E00F8DE89 /* UIStoryboard.swift */,
 				3B4976D31EEA89F900F8DE89 /* UIView.swift */,
 				3B4976D11EEA89D800F8DE89 /* UIViewController.swift */,
-				3B4976DB1EEAA37E00F8DE89 /* UIStoryboard.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -214,6 +216,7 @@
 		3B4976B31EEA77C600F8DE89 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				E8E847E41EEAA5C700F8BAB4 /* DateFormatManager.swift */,
 				3BEBD9921EE6D2B6000D4AAF /* ImageManager.swift */,
 			);
 			path = Utilities;
@@ -225,6 +228,7 @@
 				3B4976C91EEA87BA00F8DE89 /* ErrorMessages.swift */,
 				E82110BC1EE6C55400ACBE04 /* Globals.swift */,
 				3B4976CB1EEA881600F8DE89 /* Segues.swift */,
+				3B4976DD1EEABC3400F8DE89 /* DateFormats.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -317,7 +321,6 @@
 				3B4976AE1EEA70F400F8DE89 /* Extensions */,
 				3B4976B21EEA779400F8DE89 /* Managers */,
 				FDF6589F1EE6EA40008BA6B8 /* Protocols */,
-				E8E847E41EEAA5C700F8BAB4 /* DateFormatManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -571,6 +574,7 @@
 				3B4976C81EEA7E9100F8DE89 /* DummyView.swift in Sources */,
 				3B4976D41EEA89F900F8DE89 /* UIView.swift in Sources */,
 				3B4976D01EEA89B800F8DE89 /* String.swift in Sources */,
+				3B4976DE1EEABC3400F8DE89 /* DateFormats.swift in Sources */,
 				E82110BA1EE6C2DF00ACBE04 /* DependenciesManager.swift in Sources */,
 				3B4976C61EEA7E6B00F8DE89 /* DummyEntity.swift in Sources */,
 				3B4976D61EEA8A1C00F8DE89 /* UIFont.swift in Sources */,

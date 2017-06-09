@@ -14,7 +14,6 @@ class DependenciesManager {
     /// designated initialiser
     init() {
         injectDependencies()
-        
     }
 
     /// Inject Dependencies
