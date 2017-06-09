@@ -29,6 +29,7 @@
 		3B4976D81EEA8A2500F8DE89 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976D71EEA8A2500F8DE89 /* UIColor.swift */; };
 		3B4976DC1EEAA37E00F8DE89 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976DB1EEAA37E00F8DE89 /* UIStoryboard.swift */; };
 		3B4976DE1EEABC3400F8DE89 /* DateFormats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976DD1EEABC3400F8DE89 /* DateFormats.swift */; };
+		3B4976E01EEACB8300F8DE89 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976DF1EEACB8300F8DE89 /* UIAlertController.swift */; };
 		3BEBD9911EE6BE83000D4AAF /* LoggingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBD9901EE6BE83000D4AAF /* LoggingManager.swift */; };
 		3BEBD9931EE6D2B6000D4AAF /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBD9921EE6D2B6000D4AAF /* ImageManager.swift */; };
 		3BEBD9991EE6F39A000D4AAF /* DEV.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3BEBD9981EE6F39A000D4AAF /* DEV.xcconfig */; };
@@ -82,6 +83,7 @@
 		3B4976D71EEA8A2500F8DE89 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		3B4976DB1EEAA37E00F8DE89 /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIStoryboard.swift; path = ../../../../../.Trash/UIStoryboard.swift; sourceTree = "<group>"; };
 		3B4976DD1EEABC3400F8DE89 /* DateFormats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormats.swift; sourceTree = "<group>"; };
+		3B4976DF1EEACB8300F8DE89 /* UIAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
 		3BEBD9901EE6BE83000D4AAF /* LoggingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggingManager.swift; sourceTree = "<group>"; };
 		3BEBD9921EE6D2B6000D4AAF /* ImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		3BEBD9981EE6F39A000D4AAF /* DEV.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DEV.xcconfig; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 				3B4976DB1EEAA37E00F8DE89 /* UIStoryboard.swift */,
 				3B4976D31EEA89F900F8DE89 /* UIView.swift */,
 				3B4976D11EEA89D800F8DE89 /* UIViewController.swift */,
+				3B4976DF1EEACB8300F8DE89 /* UIAlertController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -582,6 +585,7 @@
 				FDF6589E1EE6D711008BA6B8 /* NetworkManagerProtocol.swift in Sources */,
 				3B4976D81EEA8A2500F8DE89 /* UIColor.swift in Sources */,
 				3B4976CC1EEA881600F8DE89 /* Segues.swift in Sources */,
+				3B4976E01EEACB8300F8DE89 /* UIAlertController.swift in Sources */,
 				3B4976AC1EEA704D00F8DE89 /* DummyFile.swift in Sources */,
 				3B4976C21EEA7E3000F8DE89 /* DummyViewModel.swift in Sources */,
 				FDBA933D1EE6CA0200CCEB26 /* NetworkManager.swift in Sources */,

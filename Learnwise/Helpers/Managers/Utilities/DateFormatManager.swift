@@ -10,7 +10,7 @@ import Foundation
 
 class DateFormatManager {
     var dateFormatter: DateFormatter!
-    
+
     /// get DateFormatter
     ///
     /// - Parameter format: date format string getting from backend response

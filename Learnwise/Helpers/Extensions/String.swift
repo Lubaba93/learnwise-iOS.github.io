@@ -11,26 +11,20 @@ import Foundation
 enum EmailError: Error {
     case emptyValue
     case invalidEmail
+    case invalidRegex
 }
 
 extension String {
-
-    /// Check for empty email value
-    ///
-    /// - Returns: boolean suggesting whether the email is empty or not
-    /// - Throws: error of type EmailError
-    func isEmpty() throws -> Bool {
-        if self.isEmpty {
-            throw EmailError.emptyValue
-        }
-        return false
-    }
 
     /// Validate email
     ///
     /// - Returns: boolean value suggesting the email is valid or not
     /// - Throws: error of type EmailError
     func isValid() throws -> Bool {
+        if self.isEmpty {
+            throw EmailError.emptyValue
+        }
+
         let emailRegEx = "[A-Z0-9a-z.-_]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,3}"
 
         do {
@@ -39,11 +33,11 @@ extension String {
             let results = regex.matches(in: self, range: NSRange(location: 0, length: nsString.length))
 
             if results.count == 0 {
-                throw EmailError.emptyValue
+                throw EmailError.invalidEmail
             }
 
         } catch {
-            throw EmailError.invalidEmail
+            throw EmailError.invalidRegex
         }
         return true
     }
