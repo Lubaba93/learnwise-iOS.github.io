@@ -1,5 +1,5 @@
 //
-//  AnalyticsManagerTests.swift
+//  ViewControllerTests.swift
 //  Learnwise
 //
 //  Created by Lubaba Hasnain on 08/06/17.
@@ -10,25 +10,23 @@ import XCTest
 @testable import Learnwise
 
 /// FIXME: Class added to check code coverage in Sonar Qube. Please avoid and re-write the code
-class AnalyticsManagerTests: XCTestCase {
+class ViewControllerTests: XCTestCase {
     
-    var analyticManager: CrashReportingManager!
+    var viewController: ViewController!
     
     override func setUp() {
         super.setUp()
-        analyticManager = CrashReportingManager()
+        let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        viewController = storyboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
     }
     
-    func testConfigureAnalytics() {
-        analyticManager.configureAnalytics()
+    func testViewDidLoad_IsCalled() {
+        //load view hierarchy
+        _ = viewController.view
     }
     
-    func test_SetUserEmail() {
-        analyticManager.setUserEmail(email: "")
-    }
-    
-    func test_UserName() {
-        analyticManager.userName(name: "")
+    func testForJenkins() {
+        viewController.testForJenkins()
     }
     
     override func tearDown() {

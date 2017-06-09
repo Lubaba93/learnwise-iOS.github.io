@@ -12,11 +12,11 @@ import XCTest
 /// FIXME: Class added to check code coverage in Sonar Qube. Please avoid and re-write the code
 class AnalyticsManagerTests: XCTestCase {
     
-    var analyticManager: CrashReportingManager!
+    var analyticManager: AnalyticsManager!
     
     override func setUp() {
         super.setUp()
-        analyticManager = CrashReportingManager()
+        analyticManager = AnalyticsManager()
     }
     
     func testConfigureAnalytics() {

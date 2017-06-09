@@ -1,0 +1,100 @@
+# Customise this file, documentation can be found here:
+# https://github.com/fastlane/fastlane/tree/master/fastlane/docs
+# All available actions: https://docs.fastlane.tools/actions
+# can also be listed using the `fastlane actions` command
+
+# Change the syntax highlighting to Ruby
+# All lines starting with a # are ignored when running `fastlane`
+
+# If you want to automatically update fastlane if a new version is available:
+# update_fastlane
+
+# This is the minimum version number required.
+# Update this, if you use features of a newer version
+fastlane_version "2.37.0"
+
+default_platform :ios
+
+platform :ios do
+  before_all do
+    # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
+    cocoapods
+
+  end
+
+  desc "Runs all the tests"
+  lane :omega do
+    scan( destination: "platform=ios,id=91814ac29bb45603b84109ebb2b7c5284050904b", scheme: "Learnwise(DEV)", code_coverage: true,  output_directory: "./reports")
+    slather(cobertura_xml: true,output_directory: "fastlane/reports/",workspace: "Learnwise.xcworkspace",proj: "Learnwise.xcodeproj",scheme: "Learnwise(DEV)",ignore: ['../../*'])
+    swiftlint( mode: "lint", output_file: "./reports/swiftlint.txt", ignore_exit_status: true , config_file: ".swiftlint-ci.yml",)
+    sh("lizard TestProject -l swift --xml > ../reports/lizard-report.xml")
+
+  end
+end
+  desc "Submit a new Beta Build to Apple TestFlight"
+  desc "This will also make sure the profile is up to date"
+  lane :beta do
+    # match(type: "appstore") # more information: https://codesigning.guide
+    cert
+    sigh(force: true)
+    gym(scheme: "Learnwise(DEV)",
+    workspace: "Learnwise.xcworkspace",
+     include_bitcode: true) # Build your app - more options available
+     # Increment the build number (not the version number)
+     # Providing the xcodeproj is optional
+     increment_build_number(
+       workspace: "Learnwise.xcworkspace"
+     )
+     changelog = File.read("releaseNotes.txt")
+     testflight(changelog: changelog)
+
+    # sh "your_script.sh"
+    # You can also use other beta testing services here (run `fastlane actions`)
+  end
+#  desc "Deploy a new version to the App Store"
+#  lane :release do
+    # match(type: "appstore")
+    # snapshot
+  #  gym(scheme: "Tesco_GHS_IOS") # Build your app - more options available
+
+    # frameit
+  #end
+
+  # You can define as many lanes as you want
+
+  #after_all do |lane|
+    #This block is called, only if the executed lane was successful
+    #if ENV["https://hooks.slack.com/services/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"]
+    #slack(
+      #message: "Successfully deployed new App Update." ,
+      #success: true ,
+      #default_payloads: [:lane, :test_result]
+    #)
+
+  #end
+
+  #error do |lane, exception|
+    #if ENV["https://hooks.slack.com/services/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"]
+  #  slack(
+  #    message: exception.message,
+  #    success: false
+  #   )
+#  end
+
+
+
+lane :alpha do
+  (
+  cert
+  sigh
+  gym
+  increment_build_number
+  testflight
+
+  )
+ end
+# More information about multiple platforms in fastlane: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Platforms.md
+# All available actions: https://docs.fastlane.tools/actions
+
+# fastlane reports which actions are used. No personal data is recorded.
+# Learn more at https://github.com/fastlane/fastlane#metrics
