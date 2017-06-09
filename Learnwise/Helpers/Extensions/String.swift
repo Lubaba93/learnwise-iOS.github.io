@@ -20,7 +20,7 @@ extension String {
     ///
     /// - Returns: boolean value suggesting the email is valid or not
     /// - Throws: error of type EmailError
-    func isValid() throws -> Bool {
+    func isValidEmail() throws -> Bool {
         if self.isEmpty {
             throw EmailError.emptyValue
         }

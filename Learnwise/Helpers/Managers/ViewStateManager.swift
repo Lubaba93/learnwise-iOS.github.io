@@ -2,8 +2,8 @@
 //  ViewStateManager.swift
 //  Tesco_GHS_IOS
 //
-//  Created by Lubaba Hasnain on 04/04/17.
-//  Copyright © 2017 Tesco.com All Rights Reserved
+//  Created by Lubaba Hasnain on 09/06/17.
+//  Copyright © 2017 nineleaps. All rights reserved.
 //
 
 import UIKit

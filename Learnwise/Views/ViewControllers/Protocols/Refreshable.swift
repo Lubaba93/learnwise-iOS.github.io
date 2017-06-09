@@ -2,8 +2,8 @@
 //  Refreshable.swift
 //  Tesco_GHS_IOS
 //
-//  Created by Lubaba Hasnain on 01/05/17.
-//  Copyright © 2017 Nineleaps. All rights reserved.
+//  Created by Lubaba Hasnain on 09/06/17.
+//  Copyright © 2017 nineleaps. All rights reserved.
 //
 
 import UIKit
