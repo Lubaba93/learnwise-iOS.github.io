@@ -14,12 +14,14 @@ class DependenciesManager {
     /// designated initialiser
     init() {
         injectDependencies()
+        
     }
 
     /// Inject Dependencies
     func injectDependencies() {
         registerLogger()
         registerAnalyticsManager()
+        registerDateFormatManager()
     }
 
     /// Register Logger class
@@ -29,10 +31,16 @@ class DependenciesManager {
         }.inObjectScope(.container)
     }
 
-    /// Register analytics manager class
+    /// Register CrashReportingManager class
     func registerAnalyticsManager() {
         container.register(CrashReportingManager.self) { _ in
             CrashReportingManager()
+            }.inObjectScope(.container)
+    }
+    /// Register DateFormat manager class
+    func registerDateFormatManager() {
+        container.register(DateFormatManager.self) { _ in
+            DateFormatManager()
             }.inObjectScope(.container)
     }
 }

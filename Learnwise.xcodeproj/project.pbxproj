@@ -38,6 +38,7 @@
 		E82110BA1EE6C2DF00ACBE04 /* DependenciesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110B91EE6C2DF00ACBE04 /* DependenciesManager.swift */; };
 		E82110BD1EE6C55400ACBE04 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110BC1EE6C55400ACBE04 /* Globals.swift */; };
 		E82110C21EE6E0A800ACBE04 /* CrashReportingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110C11EE6E0A800ACBE04 /* CrashReportingManager.swift */; };
+		E8E847E51EEAA5C700F8BAB4 /* DateFormatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E847E41EEAA5C700F8BAB4 /* DateFormatManager.swift */; };
 		FDBA933D1EE6CA0200CCEB26 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */; };
 		FDF6589E1EE6D711008BA6B8 /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF6589D1EE6D711008BA6B8 /* NetworkManagerProtocol.swift */; };
 /* End PBXBuildFile section */
@@ -94,6 +95,7 @@
 		E82110B91EE6C2DF00ACBE04 /* DependenciesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependenciesManager.swift; sourceTree = "<group>"; };
 		E82110BC1EE6C55400ACBE04 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		E82110C11EE6E0A800ACBE04 /* CrashReportingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrashReportingManager.swift; sourceTree = "<group>"; };
+		E8E847E41EEAA5C700F8BAB4 /* DateFormatManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatManager.swift; sourceTree = "<group>"; };
 		FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		FDF6589D1EE6D711008BA6B8 /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -315,6 +317,7 @@
 				3B4976AE1EEA70F400F8DE89 /* Extensions */,
 				3B4976B21EEA779400F8DE89 /* Managers */,
 				FDF6589F1EE6EA40008BA6B8 /* Protocols */,
+				E8E847E41EEAA5C700F8BAB4 /* DateFormatManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -477,7 +480,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		6DAF559CE2889F0AD44EE84E /* [CP] Copy Pods Resources */ = {
@@ -507,7 +510,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		95FB206F739CB30952E67E64 /* [CP] Embed Pods Frameworks */ = {
@@ -564,6 +567,7 @@
 			files = (
 				3B4976DC1EEAA37E00F8DE89 /* UIStoryboard.swift in Sources */,
 				E82110C21EE6E0A800ACBE04 /* CrashReportingManager.swift in Sources */,
+				E8E847E51EEAA5C700F8BAB4 /* DateFormatManager.swift in Sources */,
 				3B4976C81EEA7E9100F8DE89 /* DummyView.swift in Sources */,
 				3B4976D41EEA89F900F8DE89 /* UIView.swift in Sources */,
 				3B4976D01EEA89B800F8DE89 /* String.swift in Sources */,
