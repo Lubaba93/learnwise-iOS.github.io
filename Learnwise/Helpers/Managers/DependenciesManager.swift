@@ -36,10 +36,11 @@ class DependenciesManager {
             CrashReportingManager()
             }.inObjectScope(.container)
     }
+
     /// Register DateFormat manager class
     func registerDateFormatManager() {
-        container.register(DateFormatManager.self) { _ in
-            DateFormatManager()
+        container.register(DateUtility.self) { _ in
+            DateUtility()
             }.inObjectScope(.container)
     }
 }

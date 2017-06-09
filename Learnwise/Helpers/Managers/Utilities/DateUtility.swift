@@ -1,5 +1,5 @@
 //
-//  DateFormatManager.swift
+//  DateUtility.swift
 //  Learnwise
 //
 //  Created by Puja Kumari on 6/9/17.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class DateFormatManager {
+class DateUtility {
     var dateFormatter: DateFormatter!
 
     /// get DateFormatter

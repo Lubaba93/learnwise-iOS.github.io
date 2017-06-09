@@ -40,8 +40,10 @@
 		3B4976FC1EEAFDFC00F8DE89 /* AssetUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976FB1EEAFDFC00F8DE89 /* AssetUtility.swift */; };
 		3B4976FE1EEAFE0800F8DE89 /* ViewStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976FD1EEAFE0800F8DE89 /* ViewStateManager.swift */; };
 		3B4977011EEAFF0C00F8DE89 /* StoryboardDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4977001EEAFF0C00F8DE89 /* StoryboardDestination.swift */; };
+		3B4977031EEB1A7E00F8DE89 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4977021EEB1A7E00F8DE89 /* UserDefaults.swift */; };
+		3B4977051EEB1ABD00F8DE89 /* UserDefaultable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4977041EEB1ABD00F8DE89 /* UserDefaultable.swift */; };
 		3BEBD9911EE6BE83000D4AAF /* LoggingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBD9901EE6BE83000D4AAF /* LoggingManager.swift */; };
-		3BEBD9931EE6D2B6000D4AAF /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBD9921EE6D2B6000D4AAF /* ImageManager.swift */; };
+		3BEBD9931EE6D2B6000D4AAF /* ImageUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBD9921EE6D2B6000D4AAF /* ImageUtility.swift */; };
 		3BEBD9991EE6F39A000D4AAF /* DEV.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3BEBD9981EE6F39A000D4AAF /* DEV.xcconfig */; };
 		3BEBD99B1EE6F3AA000D4AAF /* QA.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3BEBD99A1EE6F3A5000D4AAF /* QA.xcconfig */; };
 		3BEBD99D1EE6F3C2000D4AAF /* PRD.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3BEBD99C1EE6F3C2000D4AAF /* PRD.xcconfig */; };
@@ -50,7 +52,7 @@
 		E82110BA1EE6C2DF00ACBE04 /* DependenciesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110B91EE6C2DF00ACBE04 /* DependenciesManager.swift */; };
 		E82110BD1EE6C55400ACBE04 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110BC1EE6C55400ACBE04 /* Globals.swift */; };
 		E82110C21EE6E0A800ACBE04 /* CrashReportingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110C11EE6E0A800ACBE04 /* CrashReportingManager.swift */; };
-		E8E847E51EEAA5C700F8BAB4 /* DateFormatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E847E41EEAA5C700F8BAB4 /* DateFormatManager.swift */; };
+		E8E847E51EEAA5C700F8BAB4 /* DateUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E847E41EEAA5C700F8BAB4 /* DateUtility.swift */; };
 		FDBA933D1EE6CA0200CCEB26 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */; };
 		FDF6589E1EE6D711008BA6B8 /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF6589D1EE6D711008BA6B8 /* NetworkManagerProtocol.swift */; };
 /* End PBXBuildFile section */
@@ -104,8 +106,10 @@
 		3B4976FB1EEAFDFC00F8DE89 /* AssetUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetUtility.swift; sourceTree = "<group>"; };
 		3B4976FD1EEAFE0800F8DE89 /* ViewStateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewStateManager.swift; sourceTree = "<group>"; };
 		3B4977001EEAFF0C00F8DE89 /* StoryboardDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardDestination.swift; sourceTree = "<group>"; };
+		3B4977021EEB1A7E00F8DE89 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		3B4977041EEB1ABD00F8DE89 /* UserDefaultable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultable.swift; sourceTree = "<group>"; };
 		3BEBD9901EE6BE83000D4AAF /* LoggingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggingManager.swift; sourceTree = "<group>"; };
-		3BEBD9921EE6D2B6000D4AAF /* ImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		3BEBD9921EE6D2B6000D4AAF /* ImageUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUtility.swift; sourceTree = "<group>"; };
 		3BEBD9981EE6F39A000D4AAF /* DEV.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DEV.xcconfig; sourceTree = "<group>"; };
 		3BEBD99A1EE6F3A5000D4AAF /* QA.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QA.xcconfig; sourceTree = "<group>"; };
 		3BEBD99C1EE6F3C2000D4AAF /* PRD.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = PRD.xcconfig; sourceTree = "<group>"; };
@@ -119,7 +123,7 @@
 		E82110B91EE6C2DF00ACBE04 /* DependenciesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependenciesManager.swift; sourceTree = "<group>"; };
 		E82110BC1EE6C55400ACBE04 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		E82110C11EE6E0A800ACBE04 /* CrashReportingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrashReportingManager.swift; sourceTree = "<group>"; };
-		E8E847E41EEAA5C700F8BAB4 /* DateFormatManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatManager.swift; sourceTree = "<group>"; };
+		E8E847E41EEAA5C700F8BAB4 /* DateUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtility.swift; sourceTree = "<group>"; };
 		FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		FDF6589D1EE6D711008BA6B8 /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -218,6 +222,7 @@
 				3B4976D51EEA8A1C00F8DE89 /* UIFont.swift */,
 				3B4976D31EEA89F900F8DE89 /* UIView.swift */,
 				3B4976F91EEAFDE700F8DE89 /* UIViewController.swift */,
+				3B4977021EEB1A7E00F8DE89 /* UserDefaults.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 				E82110B91EE6C2DF00ACBE04 /* DependenciesManager.swift */,
 				3BEBD9901EE6BE83000D4AAF /* LoggingManager.swift */,
 				FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */,
+				3B4977041EEB1ABD00F8DE89 /* UserDefaultable.swift */,
 				3B4976FD1EEAFE0800F8DE89 /* ViewStateManager.swift */,
 			);
 			path = Managers;
@@ -239,8 +245,8 @@
 			isa = PBXGroup;
 			children = (
 				3B4976FB1EEAFDFC00F8DE89 /* AssetUtility.swift */,
-				E8E847E41EEAA5C700F8BAB4 /* DateFormatManager.swift */,
-				3BEBD9921EE6D2B6000D4AAF /* ImageManager.swift */,
+				E8E847E41EEAA5C700F8BAB4 /* DateUtility.swift */,
+				3BEBD9921EE6D2B6000D4AAF /* ImageUtility.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -335,7 +341,6 @@
 			children = (
 				3B4977001EEAFF0C00F8DE89 /* StoryboardDestination.swift */,
 			);
-			name = Enums;
 			path = Enums;
 			sourceTree = "<group>";
 		};
@@ -628,7 +633,7 @@
 			files = (
 				3B4976FE1EEAFE0800F8DE89 /* ViewStateManager.swift in Sources */,
 				E82110C21EE6E0A800ACBE04 /* CrashReportingManager.swift in Sources */,
-				E8E847E51EEAA5C700F8BAB4 /* DateFormatManager.swift in Sources */,
+				E8E847E51EEAA5C700F8BAB4 /* DateUtility.swift in Sources */,
 				3B4976D41EEA89F900F8DE89 /* UIView.swift in Sources */,
 				3B4976D01EEA89B800F8DE89 /* String.swift in Sources */,
 				3B4976E31EEAFCC300F8DE89 /* BaseViewController.swift in Sources */,
@@ -641,6 +646,7 @@
 				E82110BA1EE6C2DF00ACBE04 /* DependenciesManager.swift in Sources */,
 				3B4976C61EEA7E6B00F8DE89 /* DummyEntity.swift in Sources */,
 				3B4976D61EEA8A1C00F8DE89 /* UIFont.swift in Sources */,
+				3B4977051EEB1ABD00F8DE89 /* UserDefaultable.swift in Sources */,
 				3B4976F51EEAFDC500F8DE89 /* EmptyStateView.swift in Sources */,
 				3B4976FA1EEAFDE700F8DE89 /* UIViewController.swift in Sources */,
 				3B1025AA1EE6800300E6E82E /* ViewController.swift in Sources */,
@@ -652,12 +658,13 @@
 				3B4976AC1EEA704D00F8DE89 /* DummyFile.swift in Sources */,
 				3B4976C21EEA7E3000F8DE89 /* DummyViewModel.swift in Sources */,
 				FDBA933D1EE6CA0200CCEB26 /* NetworkManager.swift in Sources */,
-				3BEBD9931EE6D2B6000D4AAF /* ImageManager.swift in Sources */,
+				3BEBD9931EE6D2B6000D4AAF /* ImageUtility.swift in Sources */,
 				3B4976ED1EEAFD9F00F8DE89 /* ViewControllerStates.swift in Sources */,
 				3B4977011EEAFF0C00F8DE89 /* StoryboardDestination.swift in Sources */,
 				3B4976CE1EEA89AF00F8DE89 /* CGFloat.swift in Sources */,
 				3B4976CA1EEA87BA00F8DE89 /* ErrorMessages.swift in Sources */,
 				3B1025A81EE6800300E6E82E /* AppDelegate.swift in Sources */,
+				3B4977031EEB1A7E00F8DE89 /* UserDefaults.swift in Sources */,
 				3BEBD9911EE6BE83000D4AAF /* LoggingManager.swift in Sources */,
 				E82110BD1EE6C55400ACBE04 /* Globals.swift in Sources */,
 				3B4976F61EEAFDC500F8DE89 /* ErrorState.swift in Sources */,
