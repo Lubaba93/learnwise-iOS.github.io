@@ -1,5 +1,5 @@
 //
-//  AnalyticsManager.swift
+//  CrashReportingManager.swift
 //  Learnwise
 //
 //  Created by Puja Kumari on 6/6/17.
@@ -9,7 +9,7 @@
 import Fabric
 import Crashlytics
 
-class AnalyticsManager {
+class CrashReportingManager {
 
     /// configure Crashlytics
     func configureAnalytics() {

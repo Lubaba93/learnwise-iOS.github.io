@@ -1,5 +1,5 @@
 //
-//  ImageLoader.swift
+//  ImageManager.swift
 //  Learnwise
 //
 //  Created by Lubaba Hasnain on 06/06/17.
@@ -8,11 +8,11 @@
 
 import Kingfisher
 
-protocol ImageDownloader {
+protocol ImageManager {
     var palceholder: UIImage? { get set }
 }
 
-extension ImageDownloader {
+extension ImageManager {
 
     /// clear all caches
     func clearCache() {

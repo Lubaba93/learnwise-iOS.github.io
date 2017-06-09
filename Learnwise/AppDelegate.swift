@@ -21,7 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         container?.resolve(AnalyticsManager.self)?.configureAnalytics()
         // configure logger
         container?.resolve(Logger.self)?.configureLogger()
-
         return true
     }
 

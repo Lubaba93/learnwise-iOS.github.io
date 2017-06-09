@@ -31,8 +31,8 @@ class DependenciesManager {
 
     /// Register analytics manager class
     func registerAnalyticsManager() {
-        container.register(AnalyticsManager.self) { _ in
-            AnalyticsManager()
+        container.register(CrashReportingManager.self) { _ in
+            CrashReportingManager()
             }.inObjectScope(.container)
     }
 }
