@@ -16,7 +16,6 @@
 		3B4976A51EE982AF00F8DE89 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976A41EE982AF00F8DE89 /* ViewControllerTests.swift */; };
 		3B4976A71EE983A000F8DE89 /* AnalyticsManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976A61EE983A000F8DE89 /* AnalyticsManagerTests.swift */; };
 		3B4976AC1EEA704D00F8DE89 /* DummyFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976AB1EEA704D00F8DE89 /* DummyFile.swift */; };
-		3B4976B81EEA7A8B00F8DE89 /* AppDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976B71EEA7A8B00F8DE89 /* AppDataManager.swift */; };
 		3B4976C21EEA7E3000F8DE89 /* DummyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976C11EEA7E3000F8DE89 /* DummyViewModel.swift */; };
 		3B4976C61EEA7E6B00F8DE89 /* DummyEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976C51EEA7E6B00F8DE89 /* DummyEntity.swift */; };
 		3B4976C81EEA7E9100F8DE89 /* DummyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976C71EEA7E9100F8DE89 /* DummyView.swift */; };
@@ -28,6 +27,7 @@
 		3B4976D41EEA89F900F8DE89 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976D31EEA89F900F8DE89 /* UIView.swift */; };
 		3B4976D61EEA8A1C00F8DE89 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976D51EEA8A1C00F8DE89 /* UIFont.swift */; };
 		3B4976D81EEA8A2500F8DE89 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976D71EEA8A2500F8DE89 /* UIColor.swift */; };
+		3B4976DC1EEAA37E00F8DE89 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4976DB1EEAA37E00F8DE89 /* UIStoryboard.swift */; };
 		3BEBD9911EE6BE83000D4AAF /* LoggingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBD9901EE6BE83000D4AAF /* LoggingManager.swift */; };
 		3BEBD9931EE6D2B6000D4AAF /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBD9921EE6D2B6000D4AAF /* ImageManager.swift */; };
 		3BEBD9991EE6F39A000D4AAF /* DEV.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3BEBD9981EE6F39A000D4AAF /* DEV.xcconfig */; };
@@ -67,7 +67,6 @@
 		3B4976A41EE982AF00F8DE89 /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		3B4976A61EE983A000F8DE89 /* AnalyticsManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsManagerTests.swift; sourceTree = "<group>"; };
 		3B4976AB1EEA704D00F8DE89 /* DummyFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyFile.swift; sourceTree = "<group>"; };
-		3B4976B71EEA7A8B00F8DE89 /* AppDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDataManager.swift; sourceTree = "<group>"; };
 		3B4976C11EEA7E3000F8DE89 /* DummyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyViewModel.swift; sourceTree = "<group>"; };
 		3B4976C51EEA7E6B00F8DE89 /* DummyEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyEntity.swift; sourceTree = "<group>"; };
 		3B4976C71EEA7E9100F8DE89 /* DummyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyView.swift; sourceTree = "<group>"; };
@@ -79,6 +78,7 @@
 		3B4976D31EEA89F900F8DE89 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		3B4976D51EEA8A1C00F8DE89 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		3B4976D71EEA8A2500F8DE89 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		3B4976DB1EEAA37E00F8DE89 /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIStoryboard.swift; path = ../../../../../.Trash/UIStoryboard.swift; sourceTree = "<group>"; };
 		3BEBD9901EE6BE83000D4AAF /* LoggingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggingManager.swift; sourceTree = "<group>"; };
 		3BEBD9921EE6D2B6000D4AAF /* ImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		3BEBD9981EE6F39A000D4AAF /* DEV.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DEV.xcconfig; sourceTree = "<group>"; };
@@ -192,6 +192,7 @@
 				3B4976D51EEA8A1C00F8DE89 /* UIFont.swift */,
 				3B4976D31EEA89F900F8DE89 /* UIView.swift */,
 				3B4976D11EEA89D800F8DE89 /* UIViewController.swift */,
+				3B4976DB1EEAA37E00F8DE89 /* UIStoryboard.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -211,7 +212,6 @@
 		3B4976B31EEA77C600F8DE89 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				3B4976B71EEA7A8B00F8DE89 /* AppDataManager.swift */,
 				3BEBD9921EE6D2B6000D4AAF /* ImageManager.swift */,
 			);
 			path = Utilities;
@@ -562,6 +562,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B4976DC1EEAA37E00F8DE89 /* UIStoryboard.swift in Sources */,
 				E82110C21EE6E0A800ACBE04 /* CrashReportingManager.swift in Sources */,
 				3B4976C81EEA7E9100F8DE89 /* DummyView.swift in Sources */,
 				3B4976D41EEA89F900F8DE89 /* UIView.swift in Sources */,
@@ -573,7 +574,6 @@
 				FDF6589E1EE6D711008BA6B8 /* NetworkManagerProtocol.swift in Sources */,
 				3B4976D81EEA8A2500F8DE89 /* UIColor.swift in Sources */,
 				3B4976CC1EEA881600F8DE89 /* Segues.swift in Sources */,
-				3B4976B81EEA7A8B00F8DE89 /* AppDataManager.swift in Sources */,
 				3B4976AC1EEA704D00F8DE89 /* DummyFile.swift in Sources */,
 				3B4976C21EEA7E3000F8DE89 /* DummyViewModel.swift in Sources */,
 				FDBA933D1EE6CA0200CCEB26 /* NetworkManager.swift in Sources */,

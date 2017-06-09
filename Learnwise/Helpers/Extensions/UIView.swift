@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIView {
-    
+
     /// Add zoom in animation to the view
     ///
     /// - Parameter duration: duration of the animation
