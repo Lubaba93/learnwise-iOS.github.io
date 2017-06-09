@@ -1,0 +1,1 @@
+*LearnwiseTests/AnalyticsManagerTests.swift 2swiftX(
