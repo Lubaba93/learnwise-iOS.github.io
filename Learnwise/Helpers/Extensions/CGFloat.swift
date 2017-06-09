@@ -8,16 +8,15 @@
 import UIKit
 
 extension CGFloat {
-    
-    
+
     /// Return the device width
     ///
     /// - Returns: device width in CGFloat
     static func deviceWidth() -> CGFloat {
         return UIScreen.main.bounds.width
     }
-    
-    
+
+
     /// Return the device height
     ///
     /// - Returns: device height in CGFloat
