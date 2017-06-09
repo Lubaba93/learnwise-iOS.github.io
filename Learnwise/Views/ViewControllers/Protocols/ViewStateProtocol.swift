@@ -10,7 +10,7 @@ import UIKit
 
 protocol ViewStateProtocol: class {
     var stateManager: ViewStateManager? { get }
-    
+
     var loadingView: UIView? { get }
     var errorView: UIView? { get }
     var emptyView: UIView? { get }

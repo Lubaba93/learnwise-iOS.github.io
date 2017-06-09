@@ -14,13 +14,11 @@ enum AssetUtilityError: Error {
 
 class AssetUtility {
 
-    /**
-     Reads and returns contents from a file
-     
-     - returns: file contents in dictionary format
-     
-     - throws: AssetUtilityError Exception
-     */
+    /// Reads and returns contents from a file
+    ///
+    /// - Parameter filename: name of the file
+    /// - Returns: file contents in dictionary format
+    /// - Throws: AssetUtilityError Exception
     func getFileContents(from filename: String) throws -> [String: Any] {
         guard let file = Bundle.main.path(forResource: filename, ofType: ".json") else {
             throw AssetUtilityError.invalidFile
@@ -34,13 +32,11 @@ class AssetUtility {
         return jsonData
     }
 
-    /**
-     Converts file contents from NSData format to dictionary format
-     
-     - returns: file contents in dictionary format
-     
-     - throws: AssetUtilityError Exception
-     */
+    /// onverts file contents from NSData format to dictionary format
+    ///
+    /// - Parameter jsonFile: name of the file
+    /// - Returns: file contents in dictionary format
+    /// - Throws: AssetUtilityError Exception
     func convertFileContents(jsonFile: String) throws -> [String: Any] {
         let content = try Data(contentsOf: URL.init(fileURLWithPath: jsonFile))
          // Use try-catch

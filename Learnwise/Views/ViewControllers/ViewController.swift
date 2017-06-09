@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     }
 
     func testForJenkins() {
-        log?.warning(message: "May Day!")
-        log?.debug(message: "Not visible!")
+        log?.warning(message: "Testing for Jenkins!")
+        log?.debug(message: "Testing for Code Coverage!")
     }
 }
