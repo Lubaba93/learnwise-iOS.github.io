@@ -22,6 +22,8 @@ def shared_pods
   pod 'Crashlytics'
   # Encapsulating model data
   pod 'Box', ‘~> 2.0’
+  # App tracking tool
+  pod 'Firebase/Core'
 
 end
 
