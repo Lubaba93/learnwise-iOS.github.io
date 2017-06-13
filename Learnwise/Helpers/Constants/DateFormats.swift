@@ -16,5 +16,6 @@ struct DateFormats {
     static let kShortMonthDayYearFormat: String = "MMM dd, yyyy"
     static let kDateMonthYearFormat: String = "dd/MM/yyyy"
     static let kMonthDateYearFormat: String = "MM/dd/yyyy"
+    static let kTimeFormat: String = "HH:mm"
     static let kEnUsLocaleIdentifier: String = "en_US_POSIX"
 }

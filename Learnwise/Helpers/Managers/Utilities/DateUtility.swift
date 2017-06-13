@@ -84,4 +84,16 @@ class DateUtility {
         dateFormat.dateFormat = DateFormats.kShortMonthDayYearFormat
         return dateFormat.string(from: date)
     }
+    /// Convert date as String with format "yyyy-MM-dd'T'HH:mm:ss.SSSZ" to "HH:mm"
+    ///
+    /// - Parameter currentDate: date as String
+    /// - Returns: time in "HH:mm"
+    func getTimeString(currentDate: String) -> String? {
+        let dateFormat = getDateFormatter(withFormat: DateFormats.kFullDateWithTimeZoneOffsetFormat)
+        guard let date = dateFormat.date(from:currentDate) else {
+            return nil
+        }
+        dateFormat.dateFormat = DateFormats.kTimeFormat
+        return dateFormat.string(from: date)
+    }
 }
