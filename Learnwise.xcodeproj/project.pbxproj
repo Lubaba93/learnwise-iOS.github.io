@@ -53,6 +53,7 @@
 		E82110BD1EE6C55400ACBE04 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110BC1EE6C55400ACBE04 /* Globals.swift */; };
 		E82110C21EE6E0A800ACBE04 /* CrashReportingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82110C11EE6E0A800ACBE04 /* CrashReportingManager.swift */; };
 		E8E847E51EEAA5C700F8BAB4 /* DateUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E847E41EEAA5C700F8BAB4 /* DateUtility.swift */; };
+		FD0213601EEFF19F00297674 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD02135F1EEFF19F00297674 /* GoogleService-Info.plist */; };
 		FDBA933D1EE6CA0200CCEB26 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */; };
 		FDF6589E1EE6D711008BA6B8 /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF6589D1EE6D711008BA6B8 /* NetworkManagerProtocol.swift */; };
 /* End PBXBuildFile section */
@@ -124,6 +125,7 @@
 		E82110BC1EE6C55400ACBE04 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		E82110C11EE6E0A800ACBE04 /* CrashReportingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrashReportingManager.swift; sourceTree = "<group>"; };
 		E8E847E41EEAA5C700F8BAB4 /* DateUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtility.swift; sourceTree = "<group>"; };
+		FD02135F1EEFF19F00297674 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FDBA933C1EE6CA0200CCEB26 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		FDF6589D1EE6D711008BA6B8 /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -178,6 +180,7 @@
 				3B4976C01EEA7E2000F8DE89 /* ViewModels */,
 				3B4976B91EEA7D2300F8DE89 /* Views */,
 				3B1025A71EE6800300E6E82E /* AppDelegate.swift */,
+				FD02135F1EEFF19F00297674 /* GoogleService-Info.plist */,
 				3B1025B01EE6800300E6E82E /* LaunchScreen.storyboard */,
 				3B1025AB1EE6800300E6E82E /* Main.storyboard */,
 			);
@@ -494,6 +497,7 @@
 				3B1025AF1EE6800300E6E82E /* Assets.xcassets in Resources */,
 				3BEBD99D1EE6F3C2000D4AAF /* PRD.xcconfig in Resources */,
 				3BEBD9991EE6F39A000D4AAF /* DEV.xcconfig in Resources */,
+				FD0213601EEFF19F00297674 /* GoogleService-Info.plist in Resources */,
 				3B1025AD1EE6800300E6E82E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
