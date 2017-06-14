@@ -1,0 +1,11 @@
+//
+//  DEV.xcconfig
+//  Learnwise
+//
+//  Created by Lubaba Hasnain on 06/06/17.
+//  Copyright © 2017 nineleaps. All rights reserved.
+//
+
+APP_NAME = Learnwise(DEV)
+
+BACKEND_URL = http:\/\/lwdev.nen.org/api

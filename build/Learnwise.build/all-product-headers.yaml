@@ -1,0 +1,28 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/lubabahasnain/office-projects/Learnwise/build/DEV-iphoneos/Learnwise.app/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Learnwise-Swift.h",
+          'external-contents': "/Users/lubabahasnain/office-projects/Learnwise/build/DEV-iphoneos/Learnwise.app/Headers/Learnwise-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lubabahasnain/office-projects/Learnwise/build/DEV-iphoneos/Learnwise.app/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/lubabahasnain/office-projects/Learnwise/build/Learnwise.build/DEV-iphoneos/Learnwise.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+Environment variables:
+  - Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.qJKkVwbunE/Render
+  - BUILD_DISPLAY_NAME=#21
+  - BUILD_ID=21
+  - BUILD_NUMBER=21
+  - BUILD_TAG=jenkins-LearnWise-IOS-21
+  - BUILD_URL=http://localhost:8080/job/LearnWise-IOS/21/
+  - EXECUTOR_NUMBER=1
+  - GEM_HOME=/Users/jenkins-system/.rvm/gems/ruby-2.4.0
+  - GEM_PATH=/Users/jenkins-system/.rvm/gems/ruby-2.4.0:/Users/jenkins-system/.rvm/gems/ruby-2.4.0@global
+  - GIT_BRANCH=origin/Jenkinstest
+  - GIT_COMMIT=fd73f68598d9f7d346b5e37a95b7c606d6623d05
+  - GIT_PREVIOUS_COMMIT=fd73f68598d9f7d346b5e37a95b7c606d6623d05
+  - GIT_URL=https://github.com/nineleaps/learnwise-IOS.git
+  - HOME=/Users/jenkins-system
+  - HUDSON_COOKIE=2c0a2b13-24fd-4410-9df8-226a44ca6828
+  - HUDSON_HOME=/Users/jenkins-system/.jenkins
+  - HUDSON_SERVER_COOKIE=4aef41d2d1b462ee
+  - HUDSON_URL=http://localhost:8080/
+  - IRBRC=/Users/jenkins-system/.rvm/rubies/ruby-2.4.0/.irbrc
+  - JAVA_ARCH=x86_64
+  - JAVA_HOME=/private/etc/sonar-scanner/jre
+  - JAVA_MAIN_CLASS_504=Main
+  - JAVA_MAIN_CLASS_6899=org.sonarsource.scanner.cli.Main
+  - JENKINS_HOME=/Users/jenkins-system/.jenkins
+  - JENKINS_SERVER_COOKIE=4aef41d2d1b462ee
+  - JENKINS_URL=http://localhost:8080/
+  - JOB_BASE_NAME=LearnWise-IOS
+  - JOB_DISPLAY_URL=http://localhost:8080/job/LearnWise-IOS/display/redirect
+  - JOB_NAME=LearnWise-IOS
+  - JOB_URL=http://localhost:8080/job/LearnWise-IOS/
+  - LOGNAME=jenkins-system
+  - MY_RUBY_HOME=/Users/jenkins-system/.rvm/rubies/ruby-2.4.0
+  - NODE_LABELS=master
+  - NODE_NAME=master
+  - PATH=/Users/jenkins-system/.rvm/gems/ruby-2.4.0/bin:/Users/jenkins-system/.rvm/gems/ruby-2.4.0@global/bin:/Users/jenkins-system/.rvm/rubies/ruby-2.4.0/bin:/Users/jenkins-system/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin
+  - PWD=/Users/jenkins-system/.jenkins/workspace/LearnWise-IOS
+  - RUBY_VERSION=ruby-2.4.0
+  - RUN_CHANGES_DISPLAY_URL=http://localhost:8080/job/LearnWise-IOS/21/display/redirect?page=changes
+  - RUN_DISPLAY_URL=http://localhost:8080/job/LearnWise-IOS/21/display/redirect
+  - RVM_BIN_PATH=/Users/jenkins-system/.rvm/bin
+  - RVM_DELETE_FLAG=0
+  - RVM_PATH=/Users/jenkins-system/.rvm
+  - RVM_PREFIX=/Users/jenkins-system
+  - RVM_RUBY_STRING=ruby-2.4.0
+  - RVM_VERSION=1.29.1 (latest)
+  - SHELL=/bin/bash
+  - SHLVL=0
+  - SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.VziGYsMUki/Listeners
+  - TMPDIR=/var/folders/__/k7qy2pf13bd417q0f1mxqkg80000gn/T/
+  - USER=jenkins-system
+  - WORKSPACE=/Users/jenkins-system/.jenkins/workspace/LearnWise-IOS
+  - XPC_FLAGS=0x0
+  - XPC_SERVICE_NAME=homebrew.mxcl.jenkins-lts
+  - _SYSTEM_ARCH=x86_64
+  - _SYSTEM_NAME=OSX
+  - _SYSTEM_TYPE=Darwin
+  - _SYSTEM_VERSION=10.12
+  - __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0
+  - com.apple.java.jvmTask=CommandLine
+System properties:
+  - awt.toolkit=sun.lwawt.macosx.LWCToolkit
+  - file.encoding=UTF-8
+  - file.encoding.pkg=sun.io
+  - file.separator=/
+  - ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+  - gopherProxySet=false
+  - http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+  - java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+  - java.awt.headless=true
+  - java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+  - java.class.path=/private/etc/sonar-scanner/lib/sonar-scanner-cli-3.0.1.733.jar
+  - java.class.version=52.0
+  - java.endorsed.dirs=/private/etc/sonar-scanner/jre/lib/endorsed
+  - java.ext.dirs=/Users/jenkins-system/Library/Java/Extensions:/private/etc/sonar-scanner/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+  - java.home=/private/etc/sonar-scanner/jre
+  - java.io.tmpdir=/var/folders/__/k7qy2pf13bd417q0f1mxqkg80000gn/T/
+  - java.library.path=/Users/jenkins-system/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+  - java.runtime.name=Java(TM) SE Runtime Environment
+  - java.runtime.version=1.8.0_121-b13
+  - java.specification.name=Java Platform API Specification
+  - java.specification.vendor=Oracle Corporation
+  - java.specification.version=1.8
+  - java.vendor=Oracle Corporation
+  - java.vendor.url=http://java.oracle.com/
+  - java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+  - java.version=1.8.0_121
+  - java.vm.info=mixed mode
+  - java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+  - java.vm.specification.name=Java Virtual Machine Specification
+  - java.vm.specification.vendor=Oracle Corporation
+  - java.vm.specification.version=1.8
+  - java.vm.vendor=Oracle Corporation
+  - java.vm.version=25.121-b13
+  - line.separator=
+
+  - os.arch=x86_64
+  - os.name=Mac OS X
+  - os.version=10.12.4
+  - path.separator=:
+  - project.home=/Users/jenkins-system/.jenkins/workspace/LearnWise-IOS
+  - scanner.home=/private/etc/sonar-scanner
+  - socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+  - sun.arch.data.model=64
+  - sun.boot.class.path=/private/etc/sonar-scanner/jre/lib/resources.jar:/private/etc/sonar-scanner/jre/lib/rt.jar:/private/etc/sonar-scanner/jre/lib/sunrsasign.jar:/private/etc/sonar-scanner/jre/lib/jsse.jar:/private/etc/sonar-scanner/jre/lib/jce.jar:/private/etc/sonar-scanner/jre/lib/charsets.jar:/private/etc/sonar-scanner/jre/lib/jfr.jar:/private/etc/sonar-scanner/jre/classes
+  - sun.boot.library.path=/private/etc/sonar-scanner/jre/lib
+  - sun.cpu.endian=little
+  - sun.cpu.isalist=
+  - sun.io.unicode.encoding=UnicodeBig
+  - sun.java.command=org.sonarsource.scanner.cli.Main -e -Dsonar.host.url=http://localhost:9000/ -Dsonar.login=e9b072300add347838cb09c1f1737eb04a000262 -Dsonar.language=swift -Dsonar.projectName=LearnWise-IOS -Dsonar.projectVersion=1.0 -Dsonar.sourceEncoding=UTF-8 -Dsonar.projectKey=LearnWise-IOS -Dsonar.verbose=true -Dsonar.exclusions=Pods/** -Dsonar.sources=./ -Dsonar.projectBaseDir=/Users/jenkins-system/.jenkins/workspace/LearnWise-IOS
+  - sun.java.launcher=SUN_STANDARD
+  - sun.jnu.encoding=UTF-8
+  - sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+  - sun.os.patch.level=unknown
+  - user.country=US
+  - user.country.format=IN
+  - user.dir=/Users/jenkins-system/.jenkins/workspace/LearnWise-IOS
+  - user.home=/Users/jenkins-system
+  - user.language=en
+  - user.name=jenkins-system
+  - user.timezone=Asia/Kolkata
+SonarQube plugins:
+  - Cobertura 1.7 (cobertura)
+  - GitHub 1.4.0.699 (github)
+  - Python 1.7.0.1195 (python)
+  - Code Smells 4.0.0 (smells)
+  - GitHub Authentication for SonarQube 1.3 (authgithub)
+  - Clover 3.1 (clover)
+  - Sonargraph 3.5 (Sonargraph)
+  - Azure Active Directory (AAD) Authentication Plug-in for SonarQube 1.0 (authaad)
+  - Swift (Backelite) 0.2.3 (backelitesonarswiftplugin)
+  - SVN 1.3 (scmsvn)
+  - JavaScript 2.11 (javascript)
+  - C# 5.0 (csharp)
+  - Findbugs 3.4.4 (findbugs)
+  - SonarJava 4.9.0.9858 (java)
+  - Sonargraph Integration 2.0.1 (sonargraphintegration)
+  - Web 2.5.0.476 (web)
+  - Git 1.2 (scmgit)
+  - SonarXML 1.4.2.885 (xml)
+  - SonarPHP 2.10.0.2087 (php)
+  - Generic Coverage 1.2 (genericcoverage)
+Global properties:
+  - languageSpecificParameters=149440567799001
+  - languageSpecificParameters.149440567799001.language=swift
+  - sonar.core.id=20170609143618
+  - sonar.core.startTime=2017-06-09T14:36:18+0530
+  - sonar.core.version=5.6.6
+  - sonar.cpd.cross_project=true
+  - sonar.lf.logoUrl=http://nineleaps.com/assets/img/logo.png
+  - sonar.permission.template.default=default_template
+  - sonar.qualitygate=1
+  - sonar.technicalDebt.developmentCost=1
+  - sonar.technicalDebt.hoursInDay=8
+Settings for module: LearnWise-IOS
+  - sonar.exclusions=Pods/**
+  - sonar.host.url=http://localhost:9000/
+  - sonar.junit.include=*.junit
+  - sonar.junit.reportsPath=reports/
+  - sonar.language=swift
+  - sonar.login=******
+  - sonar.profile=SwiftLint
+  - sonar.projectBaseDir=/Users/jenkins-system/.jenkins/workspace/LearnWise-IOS
+  - sonar.projectDescription=Learnwise
+  - sonar.projectKey=LearnWise-IOS
+  - sonar.projectName=LearnWise-IOS
+  - sonar.projectVersion=1.0
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=./
+  - sonar.swift.appScheme=Learnwise
+  - sonar.swift.coverage.reportPattern=fastlane/reports/cobertura.xml
+  - sonar.swift.lizard.report=reports/lizard-report.xml
+  - sonar.swift.project=Learnwise.xcodeproj
+  - sonar.swift.simulator=platform=iOS ,id =91814ac29bb45603b84109ebb2b7c5284050904b 7,OS=10.2
+  - sonar.swift.swiftlint.report=reports/*swiftlint.txt
+  - sonar.swift.workspace=Learnwise.xcworkspace
+  - sonar.verbose=true
+  - sonar.working.directory=/Users/jenkins-system/.jenkins/workspace/LearnWise-IOS/.scannerwork

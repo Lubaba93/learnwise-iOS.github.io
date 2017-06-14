@@ -1,0 +1,15 @@
+//
+//  PRD.xcconfig
+//  Learnwise
+//
+//  Created by Lubaba Hasnain on 06/06/17.
+//  Copyright © 2017 nineleaps. All rights reserved.
+//
+
+APP_NAME = Learnwise(PRD)
+
+BACKEND_URL = http:\/\/v2.learnwise.org/api/
+
+CRASHLYTICS_API_KEY = f261894556e94abd03eb8eb12866a86cd23f3224
+
+CRASHLYTICS_BUILD_SECRET = 30b209903c3e625f041e73d25bec1c688b993b46064b9759e5f5695f83445b36
