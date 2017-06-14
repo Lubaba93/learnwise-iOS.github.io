@@ -37,6 +37,13 @@ class DependenciesManager {
             }.inObjectScope(.container)
     }
 
+    /// Register EventTrackingManager class
+    func registerEventTrackingManager() {
+        container.register(EventTrackingManager.self) { _ in
+            EventTrackingManager()
+            }.inObjectScope(.container)
+    }
+
     /// Register DateFormat manager class
     func registerDateFormatManager() {
         container.register(DateUtility.self) { _ in
