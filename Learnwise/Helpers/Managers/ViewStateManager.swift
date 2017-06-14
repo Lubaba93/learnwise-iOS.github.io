@@ -44,7 +44,7 @@ class ViewStateManager {
             view.isHidden = true
         }
     }
-    
+
     /// Remove all views
     public func removeAllViews() {
         for (_, view) in self.viewStore {

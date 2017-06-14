@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
@@ -21,6 +22,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         container?.resolve(CrashReportingManager.self)?.configureAnalytics()
         // configure logger
         container?.resolve(LoggingManager.self)?.configureLogger()
+        // configure Firebase Analytics
+        container?.resolve(EventTrackingManager.self)?.configureEventTrackingManager()
+
         return true
     }
 
