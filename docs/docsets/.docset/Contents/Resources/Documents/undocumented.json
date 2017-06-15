@@ -1,0 +1,656 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/AppDelegate.swift",
+      "line": 13,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/AppDelegate.swift",
+      "line": 14,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/AppDelegate.swift",
+      "line": 15,
+      "symbol": "AppDelegate.dependenciesManager",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Constants/DateFormats.swift",
+      "line": 11,
+      "symbol": "DateFormats",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Constants/DateFormats.swift",
+      "line": 12,
+      "symbol": "DateFormats.kYearMonthDayFormat",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Constants/DateFormats.swift",
+      "line": 13,
+      "symbol": "DateFormats.kFullDateWithTimeZoneIdFormat",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Constants/DateFormats.swift",
+      "line": 14,
+      "symbol": "DateFormats.kFullDateWithTimeZoneOffsetFormat",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Constants/DateFormats.swift",
+      "line": 15,
+      "symbol": "DateFormats.kMonthDayYearTimeFormat",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Constants/DateFormats.swift",
+      "line": 16,
+      "symbol": "DateFormats.kShortMonthDayYearFormat",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Constants/DateFormats.swift",
+      "line": 17,
+      "symbol": "DateFormats.kDateMonthYearFormat",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Constants/DateFormats.swift",
+      "line": 18,
+      "symbol": "DateFormats.kMonthDateYearFormat",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Constants/DateFormats.swift",
+      "line": 19,
+      "symbol": "DateFormats.kTimeFormat",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Constants/DateFormats.swift",
+      "line": 20,
+      "symbol": "DateFormats.kEnUsLocaleIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Constants/ErrorMessages.swift",
+      "line": 9,
+      "symbol": "ErrorMessages",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Constants/ErrorMessages.swift",
+      "line": 10,
+      "symbol": "ErrorMessages.kNetworkUnavailable",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Constants/Segues.swift",
+      "line": 9,
+      "symbol": "Segues",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Constants/Segues.swift",
+      "line": 10,
+      "symbol": "Segues.kDummySegue",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Enums/StoryboardDestination.swift",
+      "line": 9,
+      "symbol": "StoryboardDestination",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Enums/StoryboardDestination.swift",
+      "line": 10,
+      "symbol": "StoryboardDestination.dummyScreen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Extensions/String.swift",
+      "line": 11,
+      "symbol": "EmailError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Extensions/String.swift",
+      "line": 12,
+      "symbol": "EmailError.emptyValue",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Extensions/String.swift",
+      "line": 13,
+      "symbol": "EmailError.invalidEmail",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Extensions/String.swift",
+      "line": 14,
+      "symbol": "EmailError.invalidRegex",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Extensions/UserDefaults.swift",
+      "line": 17,
+      "symbol": "UserDefaults.UserDefaultKey.isUserLoggedIn",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/CrashReportingManager.swift",
+      "line": 12,
+      "symbol": "CrashReportingManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/DependenciesManager.swift",
+      "line": 11,
+      "symbol": "DependenciesManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/DependenciesManager.swift",
+      "line": 12,
+      "symbol": "DependenciesManager.container",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/EventTrackingManager.swift",
+      "line": 12,
+      "symbol": "EventTrackingManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/LoggingManager.swift",
+      "line": 11,
+      "symbol": "LoggingManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/LoggingManager.swift",
+      "line": 12,
+      "symbol": "LoggingManager.log",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/NetworkManager.swift",
+      "line": 11,
+      "symbol": "NetworkManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/UserDefaultable.swift",
+      "line": null,
+      "symbol": "UserDefaultable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/UserDefaultable.swift",
+      "line": 11,
+      "symbol": "UserDefaultable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/Utilities/AssetUtility.swift",
+      "line": 10,
+      "symbol": "AssetUtilityError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/Utilities/AssetUtility.swift",
+      "line": 11,
+      "symbol": "AssetUtilityError.invalidFile",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/Utilities/AssetUtility.swift",
+      "line": 12,
+      "symbol": "AssetUtilityError.invalidJson",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/Utilities/AssetUtility.swift",
+      "line": 15,
+      "symbol": "AssetUtility",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/Utilities/DateUtility.swift",
+      "line": 11,
+      "symbol": "DateUtility",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/Utilities/DateUtility.swift",
+      "line": 12,
+      "symbol": "DateUtility.dateFormatter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/Utilities/ImageUtility.swift",
+      "line": null,
+      "symbol": "ImageUtility",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/Utilities/ImageUtility.swift",
+      "line": 11,
+      "symbol": "ImageUtility",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/Utilities/ImageUtility.swift",
+      "line": 12,
+      "symbol": "ImageUtility.palceholder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/ViewStateManager.swift",
+      "line": 11,
+      "symbol": "ViewStateManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Managers/ViewStateManager.swift",
+      "line": 12,
+      "symbol": "ViewStateManager.viewStore",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Protocols/NetworkManagerProtocol.swift",
+      "line": 11,
+      "symbol": "Result.success",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Protocols/NetworkManagerProtocol.swift",
+      "line": 12,
+      "symbol": "Result.failure",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Protocols/NetworkManagerProtocol.swift",
+      "line": 17,
+      "symbol": "NetworkError.error",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Protocols/NetworkManagerProtocol.swift",
+      "line": 20,
+      "symbol": "NetworkManagerProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Protocols/NetworkManagerProtocol.swift",
+      "line": 21,
+      "symbol": "NetworkManagerProtocol.get(url:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Helpers/Protocols/NetworkManagerProtocol.swift",
+      "line": 22,
+      "symbol": "NetworkManagerProtocol.post(url:parameters:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/CustomViews/BasicPlaceholderView.swift",
+      "line": 10,
+      "symbol": "BasicPlaceholderView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/CustomViews/BasicPlaceholderView.swift",
+      "line": 11,
+      "symbol": "BasicPlaceholderView.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/CustomViews/BasicPlaceholderView.swift",
+      "line": 13,
+      "symbol": "BasicPlaceholderView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/CustomViews/BasicPlaceholderView.swift",
+      "line": 18,
+      "symbol": "BasicPlaceholderView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/CustomViews/BasicPlaceholderView.swift",
+      "line": 24,
+      "symbol": "BasicPlaceholderView.setupView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/CustomViews/EmptyStateView.swift",
+      "line": 11,
+      "symbol": "EmptyStateView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/CustomViews/EmptyStateView.swift",
+      "line": 14,
+      "symbol": "EmptyStateView.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/CustomViews/EmptyStateView.swift",
+      "line": 26,
+      "symbol": "EmptyStateView.setupView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/CustomViews/ErrorState.swift",
+      "line": 11,
+      "symbol": "ErrorState",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/CustomViews/ErrorState.swift",
+      "line": 14,
+      "symbol": "ErrorState.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/CustomViews/ErrorState.swift",
+      "line": 22,
+      "symbol": "ErrorState.setupView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/CustomViews/LoadingView.swift",
+      "line": 10,
+      "symbol": "LoadingView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/CustomViews/LoadingView.swift",
+      "line": 13,
+      "symbol": "LoadingView.setupView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/BaseRouterViewController.swift",
+      "line": 12,
+      "symbol": "BaseRouterViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/BaseRouterViewController.swift",
+      "line": 14,
+      "symbol": "BaseRouterViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/BaseViewController.swift",
+      "line": 11,
+      "symbol": "BaseViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/BaseViewController.swift",
+      "line": 13,
+      "symbol": "BaseViewController.errorMessage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/BaseViewController.swift",
+      "line": 15,
+      "symbol": "BaseViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Enums/ViewControllerStates.swift",
+      "line": 9,
+      "symbol": "ViewControllerStates",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Enums/ViewControllerStates.swift",
+      "line": 11,
+      "symbol": "ViewControllerStates.content",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Enums/ViewControllerStates.swift",
+      "line": 13,
+      "symbol": "ViewControllerStates.error",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Enums/ViewControllerStates.swift",
+      "line": 15,
+      "symbol": "ViewControllerStates.empty",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Enums/ViewControllerStates.swift",
+      "line": 17,
+      "symbol": "ViewControllerStates.loading",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Enums/ViewControllerStates.swift",
+      "line": 19,
+      "symbol": "ViewControllerStates.none",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Protocols/Refreshable.swift",
+      "line": null,
+      "symbol": "Refreshable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Protocols/Refreshable.swift",
+      "line": 11,
+      "symbol": "Refreshable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Protocols/Refreshable.swift",
+      "line": 13,
+      "symbol": "Refreshable.refreshControl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Protocols/Refreshable.swift",
+      "line": 16,
+      "symbol": "Refreshable.tableViewReference",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Protocols/Refreshable.swift",
+      "line": 19,
+      "symbol": "Refreshable.handleRefresh(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Protocols/StoryboardDependencies.swift",
+      "line": 12,
+      "symbol": "StoryboardDependencies",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Protocols/StoryboardDependencies.swift",
+      "line": 13,
+      "symbol": "StoryboardDependencies.assignDependencies(dependencies:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Protocols/ViewStateProtocol.swift",
+      "line": null,
+      "symbol": "ViewStateProtocol",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Protocols/ViewStateProtocol.swift",
+      "line": 11,
+      "symbol": "ViewStateProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Protocols/ViewStateProtocol.swift",
+      "line": 12,
+      "symbol": "ViewStateProtocol.stateManager",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Protocols/ViewStateProtocol.swift",
+      "line": 14,
+      "symbol": "ViewStateProtocol.loadingView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Protocols/ViewStateProtocol.swift",
+      "line": 15,
+      "symbol": "ViewStateProtocol.errorView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Protocols/ViewStateProtocol.swift",
+      "line": 16,
+      "symbol": "ViewStateProtocol.emptyView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Protocols/ViewStateProtocol.swift",
+      "line": 18,
+      "symbol": "ViewStateProtocol.errorMessage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/Protocols/ViewStateProtocol.swift",
+      "line": 19,
+      "symbol": "ViewStateProtocol.transitionViewStates(state:superview:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/ViewController.swift",
+      "line": 11,
+      "symbol": "ViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/ViewController.swift",
+      "line": 12,
+      "symbol": "ViewController.log",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/ViewController.swift",
+      "line": 14,
+      "symbol": "ViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lubabahasnain/office-projects/learnwise-IOS/Learnwise/Views/ViewControllers/ViewController.swift",
+      "line": 20,
+      "symbol": "ViewController.testForJenkins()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/lubabahasnain/office-projects/learnwise-IOS"
+}
